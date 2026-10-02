@@ -21,3 +21,9 @@ The detailed native directory taxonomy is intentionally not fixed by this bootst
 - bootstrap command after repository/package qualification: `npm run publish:bootstrap`
 
 Publication remains separate from source readiness and technical qualification.
+
+## First qualified content
+
+- `src/scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — additive first-party Workspace structural scaffold.
+
+Native content remains data/artifact-oriented. Core owns planning/qualification mechanics and Docs owns the governing schema contracts.
