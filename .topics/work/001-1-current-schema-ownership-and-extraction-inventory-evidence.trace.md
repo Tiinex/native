@@ -65,8 +65,9 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-native-schema-authority-and-companion-extraction-task.trace.md](001-native-schema-authority-and-companion-extraction-task.trace.md)
-  - Value: eqRBt-SMyQ5dlhjmNKIQMBjNXzBmBJW1TWP1Ig-j5qA
+  - Value: rjgENql4cj4ppGxeVcyKRNr77CDJGuAQrbToao_MeUg
+
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 3SCMWltYrbKIbWRHW-QwirvAbeW2U0CLUCcL2yI5N78
+  - Value: qKxjLSFCYO4rtO6EdYpc7TU3Ya9dUp1EzQb9m8rRTDQ

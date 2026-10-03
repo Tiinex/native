@@ -1,28 +1,22 @@
 native
 
-First-party Tiinex native artifacts, scaffolds, entries, processes, and other qualified building blocks consumed by Core and hosts.
+First-party Tiinex native artifacts and qualified building blocks consumed by Core and hosts. Current carried authority is centered on the first-party Scaffold catalog plus the bounded schema-authority/companion extraction frontier; do not infer that Native currently owns Entry or Process catalogs merely because it may host first-party content in the future.
 
 Grounding boundary:
 - Docs owns semantic contracts.
 - Core owns host-neutral mechanics and projections.
 - Native owns maintained first-party qualified content.
+- Start from `.topics/.workspaces/tiinex-native.workspace.md`, the Native structural-boundary Decision, current Reduction material, and the explicit `.topics/work/001-native-schema-authority-and-companion-extraction-task.trace.md` only when that Project frontier is intentionally resumed.
 - Do not move Core mechanics or Docs authority into Native merely to centralize files.
 - Inside `.topics`, dot-prefixed roots are reserved registered Tiinex structural/authority namespaces; do not invent them ad hoc. Canonical Tiinex artifacts belong under `.topics`; executable implementation normally belongs under `src`.
 
-
-Current qualified native content:
-- `.topics/.scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — canonical minimal universal Workspace base scaffold.
-
-Do not infer universal applicability from catalog presence. Resolve the governing Scaffold schema and use Core planning mechanics.
-
-
 Current Scaffold catalog:
-- tiinex.native.workspace-base.v1 — canonical minimal universal Workspace base.
-- tiinex.native.workspace-work.v1 — canonical `.topics/work` capability.
-- tiinex.native.workspace-process.v1 — canonical `.topics/processes` capability.
-- tiinex.native.workspace-reduction.v1 — canonical `.topics/reductions` capability.
-- tiinex.native.workspace-schema-authority.v1 — canonical Docs-like schema authority roots.
-- tiinex.native.workspace-organization.v1 — canonical organization roots.
-- tiinex.native.repository-software-package.v1 — shared software repository roots.
+- `tiinex.native.workspace-base.v1` — canonical minimal universal Workspace base.
+- `tiinex.native.workspace-work.v1` — additive `.topics/work` capability.
+- `tiinex.native.workspace-process.v1` — additive process-root capability for a consuming Workspace; this does not mean Native itself currently carries a Process catalog.
+- `tiinex.native.workspace-reduction.v1` — additive reduction-root capability.
+- `tiinex.native.workspace-schema-authority.v1` — schema-authority roots.
+- `tiinex.native.workspace-organization.v1` — organization roots.
+- `tiinex.native.repository-software-package.v1` — shared software-repository roots.
 
-Select the base and required capabilities explicitly. Parent ancestry does not encode catalog order or structural inheritance. Do not infer applicability from catalog presence and do not move legacy subject roots without a qualified migration plan.
+Select base/capabilities explicitly. Catalog presence is not applicability, Parent ancestry is not catalog order or structural inheritance, and legacy subject roots are not moved without a qualified migration plan.

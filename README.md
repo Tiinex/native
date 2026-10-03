@@ -1,6 +1,6 @@
 # native
 
-First-party Tiinex native artifacts, scaffolds, entries, processes, and other qualified building blocks consumed by Core and hosts.
+First-party Tiinex native artifacts and qualified building blocks consumed by Core and hosts. The current repository surface is centered on the first-party Scaffold catalog plus the bounded schema-authority/companion extraction frontier; Entry/Process content should not be inferred merely from Native's role.
 
 ## Boundary
 

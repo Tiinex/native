@@ -2,11 +2,11 @@
 
 - Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
 - Parent
-  - Parent Schema: [tiinex.decision.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/core/decision/tiinex.decision.v1.schema.md)
-  - Created At: 2026-10-03 18:33:31
-  - Trace: [001-native-structural-namespace-and-schema-companion-boundary-decision.trace.md](../decisions/001-native-structural-namespace-and-schema-companion-boundary-decision.trace.md)
+  - Parent Schema: [tiinex.project.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/coordination/project/tiinex.project.v1.schema.md)
+  - Created At: 2026-10-03 19:34:05
+  - Trace: [003-native-schema-authority-extraction-project.trace.md](https://github.com/Tiinex/business/blob/ae82dfd895c4ef59f821f95b0ddd823298af4f7e/.topics/initiatives/003-native-schema-authority-extraction-project.trace.md)
   - Origin:
-    - [relative](../decisions/001-native-structural-namespace-and-schema-companion-boundary-decision.trace.md)
+    - [browse + git](https://github.com/Tiinex/business/blob/ae82dfd895c4ef59f821f95b0ddd823298af4f7e/.topics/initiatives/003-native-schema-authority-extraction-project.trace.md)
 - Current
   - Current Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
   - Created At: 2026-10-03 18:34:51
@@ -65,9 +65,9 @@ Move first-party schema authority and schema-specific companions into Native `.t
 # Continuity Integrity
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
-  - Towards: [001-native-structural-namespace-and-schema-companion-boundary-decision.trace.md](../decisions/001-native-structural-namespace-and-schema-companion-boundary-decision.trace.md)
-  - Value: 1UQLL8usMGl9EUZvTu9fo7SFv2k1xqsQL6N1g-tSYqU
+  - Towards: [003-native-schema-authority-extraction-project.trace.md](https://github.com/Tiinex/business/blob/ae82dfd895c4ef59f821f95b0ddd823298af4f7e/.topics/initiatives/003-native-schema-authority-extraction-project.trace.md)
+  - Value: pL1QoBpzapaSojtZI26biDqLFiS8tLKkl00HveSCWsU
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: eqRBt-SMyQ5dlhjmNKIQMBjNXzBmBJW1TWP1Ig-j5qA
+  - Value: rjgENql4cj4ppGxeVcyKRNr77CDJGuAQrbToao_MeUg
