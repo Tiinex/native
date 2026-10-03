@@ -2,14 +2,14 @@
 
 - Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
 - Parent
-  - Parent Schema: tiinex.scaffold.v1
-  - Created At: 2026-10-03 10:52:59
+  - Parent Schema: [tiinex.scaffold.v1](https://github.com/Tiinex/docs/blob/70bdfd1efe39057f2453d3ef40c35799f92fd63e/.topics/.schemas/scaffold/tiinex.scaffold.v1.schema.md)
+  - Created At: 2026-10-03 12:30:31
   - Trace: [tiinex-workspace-work-scaffold.trace.md](tiinex-workspace-work-scaffold.trace.md)
   - Origin:
     - [relative](tiinex-workspace-work-scaffold.trace.md)
 - Current
-  - Current Schema: tiinex.scaffold.v1
-  - Created At: 2026-10-03 10:53:01
+  - Current Schema: [tiinex.scaffold.v1](https://github.com/Tiinex/docs/blob/70bdfd1efe39057f2453d3ef40c35799f92fd63e/.topics/.schemas/scaffold/tiinex.scaffold.v1.schema.md)
+  - Created At: 2026-10-03 12:30:32
   - Authors: Anchor
   - Summary: Tiinex Workspace Process Root Scaffold
   - Status: ready/local
@@ -83,8 +83,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [tiinex-workspace-work-scaffold.trace.md](tiinex-workspace-work-scaffold.trace.md)
-  - Value: -8FUSqJPEqDfsrjay4Ei3XzvQdpsa0NGVov5CxMlFXo
+  - Value: -gy0F4nhLK5cXwy0hBvDHocspM_XSZu5IIitWzNarFg
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: ID-m00qfx3WsNJgwU0i-zde2ebNgLKe4CwMZbXtmJ-E
+  - Value: x2iZn9FerPhMl0KmwA23UxiL1JcKNjL6RbwbsVH_PLk

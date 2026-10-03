@@ -2,14 +2,14 @@
 
 - Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
 - Parent
-  - Parent Schema: tiinex.scaffold.v1
-  - Created At: 2026-10-03 10:53:06
+  - Parent Schema: [tiinex.scaffold.v1](https://github.com/Tiinex/docs/blob/70bdfd1efe39057f2453d3ef40c35799f92fd63e/.topics/.schemas/scaffold/tiinex.scaffold.v1.schema.md)
+  - Created At: 2026-10-03 12:30:33
   - Trace: [tiinex-organization-workspace-scaffold.trace.md](../workspace/capabilities/tiinex-organization-workspace-scaffold.trace.md)
   - Origin:
     - [relative](../workspace/capabilities/tiinex-organization-workspace-scaffold.trace.md)
 - Current
-  - Current Schema: tiinex.scaffold.v1
-  - Created At: 2026-10-03 10:53:07
+  - Current Schema: [tiinex.scaffold.v1](https://github.com/Tiinex/docs/blob/70bdfd1efe39057f2453d3ef40c35799f92fd63e/.topics/.schemas/scaffold/tiinex.scaffold.v1.schema.md)
+  - Created At: 2026-10-03 12:30:34
   - Authors: Anchor
   - Summary: Tiinex Software Package Repository Scaffold
   - Status: ready/local
@@ -103,8 +103,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [tiinex-organization-workspace-scaffold.trace.md](../workspace/capabilities/tiinex-organization-workspace-scaffold.trace.md)
-  - Value: 3SkplvXmZm_KJWLCD8j40Us3L3_o1oQwheddx4wk-zY
+  - Value: u0N7YN_pGm0jqolubRpTkQD0EBAB_TnN-vrQeed5a_8
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: _WEv76p5WYl2aaOgGAhmsMG-UhzijldKoFLF1yy8JO4
+  - Value: PqJ5xlkf7l1n51ISNoMjZ6RGRRu3rqQfZFK2T-ld9ss

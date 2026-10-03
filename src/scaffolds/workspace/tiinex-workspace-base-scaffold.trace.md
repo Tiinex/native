@@ -2,8 +2,8 @@
 
 - Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
 - Current
-  - Current Schema: tiinex.scaffold.v1
-  - Created At: 2026-10-02 20:49:35
+  - Current Schema: [tiinex.scaffold.v1](https://github.com/Tiinex/docs/blob/70bdfd1efe39057f2453d3ef40c35799f92fd63e/.topics/.schemas/scaffold/tiinex.scaffold.v1.schema.md)
+  - Created At: 2026-10-03 12:30:29
   - Authors: Anchor
   - Why: Provide one qualified Native structural pattern that Core and hosts can consume without improvising directory roots.
   - Summary: First-party additive scaffold for generic Tiinex Workspace `.topics` roots.
@@ -100,4 +100,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: EFFlsKSfNukpXriE-Nukd9wULNlJITshPXfHVucOy9s
+  - Value: 1nNmWCwmitpyaQcOD7LMYBg1M3t55aZ8em77MoH75FA

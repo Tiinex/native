@@ -33,7 +33,7 @@ test('first-party Scaffold catalog ships only exact self-qualified Tiinex Scaffo
   const observed = new Set();
   for (const file of files) {
     const markdown = await readFile(file, 'utf8');
-    assert.match(markdown, /Current Schema: tiinex\.scaffold\.v1/);
+    assert.match(markdown, /Current Schema: \[tiinex\.scaffold\.v1\]\(https:\/\/github\.com\/Tiinex\/docs\/blob\/[0-9a-f]{40}\/.topics\/.schemas\/scaffold\/tiinex\.scaffold\.v1\.schema\.md\)/);
     const handle = markdown.match(/^- Scaffold Handle:\s*(\S+)\s*$/m)?.[1];
     assert.ok(handle, `missing Scaffold Handle in ${file}`);
     assert.equal(expectedHandles.has(handle), true, `unexpected Scaffold Handle ${handle}`);
