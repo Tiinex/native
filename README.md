@@ -22,8 +22,25 @@ The detailed native directory taxonomy is intentionally not fixed by this bootst
 
 Publication remains separate from source readiness and technical qualification.
 
-## First qualified content
+## First-party Scaffold catalog
 
-- `src/scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — additive first-party Workspace structural scaffold.
+Native now carries a composable first-party Scaffold catalog used as the target for Workspace/repository structural migration.
 
-Native content remains data/artifact-oriented. Core owns planning/qualification mechanics and Docs owns the governing schema contracts.
+```text
+src/scaffolds/
+├─ repository/
+│  └─ tiinex-software-package-repository-scaffold.trace.md
+└─ workspace/
+   ├─ tiinex-workspace-base-scaffold.trace.md          # v1 recovery/dogfood
+   ├─ tiinex-workspace-base-v2-scaffold.trace.md       # preferred universal base
+   └─ capabilities/
+      ├─ tiinex-workspace-work-scaffold.trace.md
+      ├─ tiinex-workspace-process-scaffold.trace.md
+      ├─ tiinex-workspace-reduction-scaffold.trace.md
+      ├─ tiinex-schema-authority-workspace-scaffold.trace.md
+      └─ tiinex-organization-workspace-scaffold.trace.md
+```
+
+The catalog is capability-oriented: consumers explicitly compose the small structural roles they need instead of selecting a repository-specific template. `workspace-base.v2` requires only `.topics` and `.topics/.workspaces`; work/process/reduction roots are selected separately so repository durability does not depend on empty Git directories.
+
+Scaffold qualification never moves source. Core owns composition/migration planning and hosts apply separately authorized plans. Docs remains semantic-contract authority.

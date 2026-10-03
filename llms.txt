@@ -14,3 +14,15 @@ Current qualified native content:
 - `src/scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — generic additive Workspace root scaffold.
 
 Do not infer universal applicability from catalog presence. Resolve the governing Scaffold schema and use Core planning mechanics.
+
+
+Current Scaffold catalog:
+- tiinex.native.workspace-base.v2 — preferred universal Workspace base.
+- tiinex.native.workspace-work.v1 — canonical `.topics/work` capability.
+- tiinex.native.workspace-process.v1 — canonical `.topics/processes` capability.
+- tiinex.native.workspace-reduction.v1 — canonical `.topics/reductions` capability.
+- tiinex.native.workspace-schema-authority.v1 — canonical Docs-like schema authority roots.
+- tiinex.native.workspace-organization.v1 — canonical organization roots.
+- tiinex.native.repository-software-package.v1 — shared software repository roots.
+
+Select capabilities explicitly. Do not infer applicability from catalog presence and do not move legacy subject roots without a qualified migration plan.
