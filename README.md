@@ -38,8 +38,7 @@ Native carries a composable first-party Scaffold catalog under the reserved `.to
 ├─ repository/
 │  └─ tiinex-software-package-repository-scaffold.trace.md
 └─ workspace/
-   ├─ tiinex-workspace-base-scaffold.trace.md          # v1 recovery/dogfood
-   ├─ tiinex-workspace-base-v2-scaffold.trace.md       # preferred universal base
+   ├─ tiinex-workspace-base-scaffold.trace.md          # canonical minimal universal base
    └─ capabilities/
       ├─ tiinex-workspace-work-scaffold.trace.md
       ├─ tiinex-workspace-process-scaffold.trace.md
@@ -48,7 +47,7 @@ Native carries a composable first-party Scaffold catalog under the reserved `.to
       └─ tiinex-organization-workspace-scaffold.trace.md
 ```
 
-The catalog is capability-oriented: consumers explicitly compose the small structural roles they need instead of selecting a repository-specific template. `workspace-base.v2` requires only `.topics` and `.topics/.workspaces`; work/process/reduction roots are selected separately so repository durability does not depend on empty Git directories.
+The catalog is capability-oriented: consumers explicitly compose the small structural roles they need instead of selecting a repository-specific template. The canonical `workspace-base.v1` requires only `.topics` and `.topics/.workspaces`; work/process/reduction roots are selected separately so repository durability does not depend on empty Git directories. Scaffold Parent ancestry is not used as catalog ordering or structural inheritance; current capability artifacts are independent additive fragments selected explicitly for composition.
 
 Scaffold qualification never moves source. Core owns composition/migration planning and hosts apply separately authorized plans. Docs remains semantic-contract authority.
 

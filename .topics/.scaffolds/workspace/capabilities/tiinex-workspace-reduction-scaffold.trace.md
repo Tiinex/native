@@ -1,15 +1,9 @@
 # Continuity Context
 
 - Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
-- Parent
-  - Parent Schema: [tiinex.scaffold.v1](https://github.com/Tiinex/docs/blob/70bdfd1efe39057f2453d3ef40c35799f92fd63e/.topics/.schemas/scaffold/tiinex.scaffold.v1.schema.md)
-  - Created At: 2026-10-03 12:30:32
-  - Trace: [tiinex-workspace-process-scaffold.trace.md](tiinex-workspace-process-scaffold.trace.md)
-  - Origin:
-    - [relative](tiinex-workspace-process-scaffold.trace.md)
 - Current
   - Current Schema: [tiinex.scaffold.v1](https://github.com/Tiinex/docs/blob/70bdfd1efe39057f2453d3ef40c35799f92fd63e/.topics/.schemas/scaffold/tiinex.scaffold.v1.schema.md)
-  - Created At: 2026-10-03 12:30:32
+  - Created At: 2026-10-03 18:52:12
   - Authors: Anchor
   - Summary: Tiinex Workspace Reduction Root Scaffold
   - Status: ready/local
@@ -82,9 +76,5 @@
 # Continuity Integrity
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
-  - Towards: [tiinex-workspace-process-scaffold.trace.md](tiinex-workspace-process-scaffold.trace.md)
-  - Value: x2iZn9FerPhMl0KmwA23UxiL1JcKNjL6RbwbsVH_PLk
-
-- [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: WvD5qj4iRfVUDSOYPBzn5V6BpD9K38IH2bCXhH9oka8
+  - Value: NOMhYd9nHlwOf_cB0CuuBhaF0YTGgy9Jxpzt3ETKPqA

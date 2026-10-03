@@ -11,13 +11,13 @@ Grounding boundary:
 
 
 Current qualified native content:
-- `.topics/.scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — generic additive Workspace root scaffold.
+- `.topics/.scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — canonical minimal universal Workspace base scaffold.
 
 Do not infer universal applicability from catalog presence. Resolve the governing Scaffold schema and use Core planning mechanics.
 
 
 Current Scaffold catalog:
-- tiinex.native.workspace-base.v2 — preferred universal Workspace base.
+- tiinex.native.workspace-base.v1 — canonical minimal universal Workspace base.
 - tiinex.native.workspace-work.v1 — canonical `.topics/work` capability.
 - tiinex.native.workspace-process.v1 — canonical `.topics/processes` capability.
 - tiinex.native.workspace-reduction.v1 — canonical `.topics/reductions` capability.
@@ -25,4 +25,4 @@ Current Scaffold catalog:
 - tiinex.native.workspace-organization.v1 — canonical organization roots.
 - tiinex.native.repository-software-package.v1 — shared software repository roots.
 
-Select capabilities explicitly. Do not infer applicability from catalog presence and do not move legacy subject roots without a qualified migration plan.
+Select the base and required capabilities explicitly. Parent ancestry does not encode catalog order or structural inheritance. Do not infer applicability from catalog presence and do not move legacy subject roots without a qualified migration plan.

@@ -8,7 +8,6 @@ import { canonicalC14nV2SelfState } from '@tiinex/core/integrity/integrity.c14nV
 const root = fileURLToPath(new URL('../.topics/.scaffolds/', import.meta.url));
 const expectedHandles = new Set([
   'tiinex.native.workspace-base.v1',
-  'tiinex.native.workspace-base.v2',
   'tiinex.native.workspace-work.v1',
   'tiinex.native.workspace-process.v1',
   'tiinex.native.workspace-reduction.v1',
@@ -34,6 +33,7 @@ test('first-party Scaffold catalog ships only exact self-qualified Tiinex Scaffo
   for (const file of files) {
     const markdown = await readFile(file, 'utf8');
     assert.match(markdown, /Current Schema: \[tiinex\.scaffold\.v1\]\(https:\/\/github\.com\/Tiinex\/docs\/blob\/[0-9a-f]{40}\/.topics\/.schemas\/scaffold\/tiinex\.scaffold\.v1\.schema\.md\)/);
+    assert.doesNotMatch(markdown, /^- Parent$/m, 'catalog scaffolds are independent roots; Parent is not catalog order');
     const handle = markdown.match(/^- Scaffold Handle:\s*(\S+)\s*$/m)?.[1];
     assert.ok(handle, `missing Scaffold Handle in ${file}`);
     assert.equal(expectedHandles.has(handle), true, `unexpected Scaffold Handle ${handle}`);
@@ -42,4 +42,13 @@ test('first-party Scaffold catalog ships only exact self-qualified Tiinex Scaffo
     assert.equal(canonicalC14nV2SelfState(markdown).state, 'verified', `unqualified self-integrity ${handle}`);
   }
   assert.deepEqual([...observed].sort(), [...expectedHandles].sort());
+});
+
+test('canonical Workspace base remains minimal and versioned as the first stable contract', async () => {
+  const markdown = await readFile(path.join(root, 'workspace/tiinex-workspace-base-scaffold.trace.md'), 'utf8');
+  assert.match(markdown, /^- Scaffold Handle: tiinex\.native\.workspace-base\.v1$/m);
+  assert.match(markdown, /^- Version: 1$/m);
+  assert.match(markdown, /^  - Path: \.topics$/m);
+  assert.match(markdown, /^  - Path: \.topics\/.workspaces$/m);
+  assert.doesNotMatch(markdown, /^  - Path: \.topics\/(?:work|processes|reductions)$/m);
 });

@@ -22,6 +22,6 @@ test('canonical Tiinex trace material is not stored under src', async () => {
 
 test('first-party Scaffold material lives under the reserved .topics/.scaffolds namespace', async () => {
   const scaffoldFiles=(await files(path.join(root,'.topics','.scaffolds'))).filter((p)=>p.endsWith('.trace.md'));
-  assert.equal(scaffoldFiles.length,8);
+  assert.equal(scaffoldFiles.length,7);
   assert.equal(scaffoldFiles.every((p)=>p.includes(`${path.sep}.topics${path.sep}.scaffolds${path.sep}`)),true);
 });
