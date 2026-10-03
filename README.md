@@ -10,7 +10,14 @@ This repository carries first-party qualified Tiinex content and reusable native
 - Core owns host-neutral mechanics and projections.
 - Native owns maintained first-party content consumed through those contracts and mechanics.
 
-The detailed native directory taxonomy is intentionally not fixed by this bootstrap. Entries, processes, scaffolds, Workspace patterns, and related native material should be placed only after their structure and lifecycle have been qualified through Tiinex.
+Native now follows a qualified structural namespace boundary:
+
+- `.topics/.<name>` is reserved for registered Tiinex structural/authority namespaces whose meaning is known to Tiinex.
+- `.topics/<name>` is Workspace/domain/lifecycle material whose name is not a reserved structural authority.
+- `src/` is executable implementation code, except for a deliberately bounded transitional exception when executable schema companions are co-located with their canonical schema family during schema extraction.
+- Dot-prefix does not mean hidden, temporary, or generated. It means the directory name itself has registered Tiinex structural meaning.
+
+Do not invent new `.topics/.<name>` roots ad hoc; qualify/register the convention first.
 
 ## Distribution
 
@@ -24,10 +31,10 @@ Publication remains separate from source readiness and technical qualification.
 
 ## First-party Scaffold catalog
 
-Native now carries a composable first-party Scaffold catalog used as the target for Workspace/repository structural migration.
+Native carries a composable first-party Scaffold catalog under the reserved `.topics/.scaffolds` structural namespace.
 
 ```text
-src/scaffolds/
+.topics/.scaffolds/
 ├─ repository/
 │  └─ tiinex-software-package-repository-scaffold.trace.md
 └─ workspace/
@@ -44,3 +51,10 @@ src/scaffolds/
 The catalog is capability-oriented: consumers explicitly compose the small structural roles they need instead of selecting a repository-specific template. `workspace-base.v2` requires only `.topics` and `.topics/.workspaces`; work/process/reduction roots are selected separately so repository durability does not depend on empty Git directories.
 
 Scaffold qualification never moves source. Core owns composition/migration planning and hosts apply separately authorized plans. Docs remains semantic-contract authority.
+
+
+## Structural namespace rule
+
+Inside `.topics`, a dot-prefixed directory is a reserved Tiinex structural/authority namespace. Current first-party examples include `.workspaces`, `.schemas`, and `.scaffolds`. Ordinary semantic/lifecycle roots such as `work`, `processes`, `reductions`, `roles`, and `initiatives` remain non-dot-prefixed.
+
+Canonical Tiinex artifacts belong under `.topics`; executable application/runtime implementation belongs under `src`. Schema-specific executable companions are the one currently accepted transitional exception while schema ownership is extracted from Core; that exception must not become a second schema authority or a home for unrelated application code.

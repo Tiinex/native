@@ -7,11 +7,11 @@ Grounding boundary:
 - Core owns host-neutral mechanics and projections.
 - Native owns maintained first-party qualified content.
 - Do not move Core mechanics or Docs authority into Native merely to centralize files.
-- Do not invent or freeze the native directory taxonomy merely to populate this repository; follow qualified Tiinex structure/scaffolding work when it exists.
+- Inside `.topics`, dot-prefixed roots are reserved registered Tiinex structural/authority namespaces; do not invent them ad hoc. Canonical Tiinex artifacts belong under `.topics`; executable implementation normally belongs under `src`.
 
 
 Current qualified native content:
-- `src/scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — generic additive Workspace root scaffold.
+- `.topics/.scaffolds/workspace/tiinex-workspace-base-scaffold.trace.md` — generic additive Workspace root scaffold.
 
 Do not infer universal applicability from catalog presence. Resolve the governing Scaffold schema and use Core planning mechanics.
 

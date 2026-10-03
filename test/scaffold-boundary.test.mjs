@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { canonicalC14nV2SelfState } from '@tiinex/core/integrity/integrity.c14nV2.js';
 
-const root = fileURLToPath(new URL('../src/scaffolds/', import.meta.url));
+const root = fileURLToPath(new URL('../.topics/.scaffolds/', import.meta.url));
 const expectedHandles = new Set([
   'tiinex.native.workspace-base.v1',
   'tiinex.native.workspace-base.v2',
