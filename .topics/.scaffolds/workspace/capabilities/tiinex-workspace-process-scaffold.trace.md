@@ -38,6 +38,16 @@
   - Presence: required
   - Entry Role: process-root
 
+## Process Directory Convention
+
+- Catalog Root Artifact: a Workspace-local process catalog/root artifact belongs directly beneath `.topics/processes/` when durable process definitions are present.
+- Process Placement: each reusable process owns one subdirectory `.topics/processes/<process-handle>/`; its process-definition root artifact lives inside that directory.
+- Catalog Parent: direct Workspace-local process-definition roots use the Workspace-local process catalog/root artifact as their real Parent when that ancestry is truthful.
+- Sub-process Placement: a semantically standalone or independently followable sub-process may own a nested subdirectory beneath its containing process; folder nesting alone does not create Parent continuity.
+- Step Placement: process steps, branch artifacts, and bounded relation artifacts stay inside the owning process directory unless their semantic authority belongs elsewhere.
+- Navigation: Viewer/tooling discovers the process tree from artifact material; README or manually maintained directory indexes are not required authority.
+- Filename Boundary: filenames may preserve lineage/local namespace identity; directory naming carries process ownership, not lifecycle/currentness.
+
 ## Composition
 
 - Composition Policy: additive
@@ -77,4 +87,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: tx0WlsSAoHIRs3ZAQtW7CR4rsj3BdgjrcsKudPceKzs
+  - Value: rf1k1x8JedLKfOz5nsBCVcoZ3DbqKUSDazVCHGKobKY
