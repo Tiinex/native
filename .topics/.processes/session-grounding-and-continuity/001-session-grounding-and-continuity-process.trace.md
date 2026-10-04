@@ -9,10 +9,10 @@
     - [relative](../001-processes.trace.md)
 - Current
   - Current Schema: [tiinex.topic.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/core/topic/tiinex.topic.v1.schema.md)
-  - Created At: 2026-10-04 01:16:20
-  - Authors: Anchor
-  - Why: Let cold or resumed Tiinex consumers ground and preserve bounded work without organization-specific or provider-specific improvisation.
-  - Summary: Portable process for bounded session grounding, source preference, readiness, host adaptation, and checkpoint continuity.
+  - Created At: 2026-10-04 19:50:00
+  - Authors: Anchor; Sigma
+  - Why: Let cold, resumed, or transferring Tiinex consumers ground and preserve bounded work without hidden conversational state, recipient-kind exceptions, or provider-specific improvisation.
+  - Summary: Portable process for bounded session grounding, source preference, recipient transfer, artifact-first handoff, host adaptation, and checkpoint continuity.
   - Status: ready/local
 
 ---
@@ -60,6 +60,20 @@ These labels are orientation language, not a protocol state machine. A stronger 
 - A carrier may exist without a new responsibility transfer.
 - Package validity does not prove Handoff acceptance, semantic grounding, action readiness, or remote-write authority.
 - Handoff responsibility must not be inferred from package destination, sender/receiver UI position, filename, directory, or upload channel.
+
+## Recipient Transfer And Artifact-First Boundary
+
+A recipient boundary exists when the current actor asks another actor to own or perform a bounded next action, including review, acceptance, manual/external execution, continuation, or another responsibility that leaves the current actor's exclusive control.
+
+- Treat human, LLM, automation, and other qualified recipients by the same Handoff semantics. Recipient kind does not weaken transfer, authority, continuity, or carrier requirements.
+- Before asking the recipient to act, make the bounded work/responsibility durable in the artifact type that owns it and author a Handoff when responsibility is actually transferred.
+- The normal operator-completion transport is one qualified Handoff Package plus the exact Tooling-projected routing text. Supporting evidence, patches, source snapshots, status material, or other files should be carried by or referenced from that package rather than emitted as an ad-hoc set the recipient must reconstruct.
+- When the governing carrier profile expects a full recovery checkpoint, preserve that recovery completeness for a human recipient exactly as for an LLM recipient. A smaller conversational action request must not silently downgrade recoverability.
+- A Handoff Package may therefore serve both as the recipient's action surface and as the recoverable checkpoint for the transferred state. These are compatible transport purposes; package validity still does not create acceptance or action authority by itself.
+- Ordinary informational replies, clarification, or discussion that transfer no bounded responsibility do not require a new Handoff merely because another actor is present.
+- If qualified Handoff manufacture cannot be completed, report the exact transport/qualification blocker. Do not silently substitute loose helper files, repository ZIPs, patches, or chat prose as an equivalent transfer.
+
+The recipient should be able to use the same qualified Tooling path to orient, ground, continue, review, or return the transfer when that Tooling is available. A human participant is not an out-of-band exception to Tiinex continuity.
 
 ## Source Preference And Recovery
 
@@ -156,4 +170,4 @@ Do not compensate with broad repository archaeology, arbitrary connector search,
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:AL0uAf0ZuRHeowby_sfvM7BjUmy54o2uVsJounSHa2U
+  - Value:ymEdmcxAeQ5q8ZwLSyAzH5FWbIfWyNdXK8eRNZ-eUUA
