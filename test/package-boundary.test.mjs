@@ -9,6 +9,9 @@ test('package and release policy bind the native repository identity', async () 
   assert.equal(pkg.repository.url, 'git+https://github.com/Tiinex/native.git');
   assert.equal(policy.repository, 'Tiinex/native');
   assert.equal(policy.branch, 'master');
+  assert.equal(pkg.tiinex?.contentSource?.registeredSurfaces, 'recursive');
+  assert.equal(pkg.tiinex?.contentSource?.executableSchemaCompanions, true);
+  assert.ok((pkg.files || []).includes('.topics'), 'content-source package must ship its .topics boundary');
   const publicModule = await import('../src/index.js');
   assert.deepEqual(Object.keys(publicModule), []);
 });

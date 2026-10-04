@@ -1,22 +1,7 @@
-native
+# Tiinex/native LLM Bootstrap
 
-First-party Tiinex native artifacts and qualified building blocks consumed by Core and hosts. Current carried authority is centered on the first-party Scaffold catalog plus the bounded schema-authority/companion extraction frontier; do not infer that Native currently owns Entry or Process catalogs merely because it may host first-party content in the future.
+This repository uses Tiinex. `.topics/**` and qualified source material are semantic/provenance authority; this file is only a bootstrap hint.
 
-Grounding boundary:
-- Docs owns semantic contracts.
-- Core owns host-neutral mechanics and projections.
-- Native owns maintained first-party qualified content.
-- Start from `.topics/.workspaces/tiinex-native.workspace.md`, the Native structural-boundary Decision, current Reduction material, and the explicit `.topics/work/001-native-schema-authority-and-companion-extraction-task.trace.md` only when that Project frontier is intentionally resumed.
-- Do not move Core mechanics or Docs authority into Native merely to centralize files.
-- Inside `.topics`, dot-prefixed roots are reserved registered Tiinex structural/authority namespaces; do not invent them ad hoc. Canonical Tiinex artifacts belong under `.topics`; executable implementation normally belongs under `src`.
+Use Tiinex Tooling to discover and qualify the Workspace entrypoint under `.topics/.workspaces`, then follow only the qualified artifacts and processes applicable to the current task.
 
-Current Scaffold catalog:
-- `tiinex.native.workspace-base.v1` — canonical minimal universal Workspace base.
-- `tiinex.native.workspace-work.v1` — additive `.topics/work` capability.
-- `tiinex.native.workspace-process.v1` — additive process-root capability for a consuming Workspace; this does not mean Native itself currently carries a Process catalog.
-- `tiinex.native.workspace-reduction.v1` — additive reduction-root capability.
-- `tiinex.native.workspace-schema-authority.v1` — schema-authority roots.
-- `tiinex.native.workspace-organization.v1` — organization roots.
-- `tiinex.native.repository-software-package.v1` — shared software-repository roots.
-
-Select base/capabilities explicitly. Catalog presence is not applicability, Parent ancestry is not catalog order or structural inheritance, and legacy subject roots are not moved without a qualified migration plan.
+Do not use `llms.txt` or `README.md` as an artifact index, current-work declaration, or substitute for Tiinex discovery/grounding.
