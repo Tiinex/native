@@ -24,7 +24,7 @@
     "NOTICE"
   ],
   "scripts": {
-    "test": "node --test test/*.test.mjs",
+    "test": "node scripts/test-local-core.mjs",
     "pack:check": "npm pack --dry-run",
     "validate": "npm test && npm run pack:check",
     "release:preview": "node tools/release.mjs preview",
