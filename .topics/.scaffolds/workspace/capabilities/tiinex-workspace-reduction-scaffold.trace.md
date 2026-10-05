@@ -38,6 +38,16 @@
   - Presence: required
   - Entry Role: reduction-root
 
+## Work Reduction Convention
+
+- Work Reduction Placement: when one bounded work area becomes terminal and a durable distilled result is warranted, prefer `.topics/reductions/work/<work-area-handle>/` for the reduction surface corresponding to that work area.
+- Discoverability: reuse of the work-area handle makes terminal history discoverable from the same human scope without keeping long historical execution lineages looking active under `.topics/work`.
+- Reduction Meaning: a directory does not make material terminal. The qualified Reduction artifact and lifecycle/disposition authority own the reduction meaning.
+- Reduction Shape: one reduction artifact may distill the completed work area when that is sufficient. Additional artifacts belong only when the reduced result genuinely needs separate durable structure.
+- Source Preservation: reducing a work area does not authorize deletion or movement of its source history by itself. Any canonical migration/compaction remains a separately qualified operation.
+- Cross-Workspace Boundary: reductions belong in the Workspace that owns the reduced execution truth unless a separately qualified organizational reduction intentionally summarizes across Workspaces.
+- Legacy Boundary: existing reduction category layouts remain valid until separately migrated; this convention adds a preferred work-area reduction shape rather than invalidating historical paths.
+
 ## Composition
 
 - Composition Policy: additive
@@ -77,4 +87,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: NOMhYd9nHlwOf_cB0CuuBhaF0YTGgy9Jxpzt3ETKPqA
+  - Value: i-ht_vHLiXOPJC-OPzShTGaAY0pGT6qwYMQLAzj__PI

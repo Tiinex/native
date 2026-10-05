@@ -38,6 +38,17 @@
   - Presence: required
   - Entry Role: work-root
 
+## Work Area Convention
+
+- Work Area Placement: each bounded execution scope should own one descriptive subdirectory `.topics/work/<work-area-handle>/` in the Workspace that naturally owns that execution truth.
+- Handle Meaning: `<work-area-handle>` is a human/discovery scope label for one bounded work area. It should make the subject recognizable without pretending to be Task, Project, Parent, lifecycle, or acceptance authority.
+- Frontier Shape: unresolved work should preserve a short explicit frontier inside its work area. A very long same-area lineage is a diagnostic signal to review disposition/reduction, not an automatic invalidity rule.
+- One-Artifact Meaning: a work area containing one artifact may represent a newly opened/atomic work surface. A terminal single-file artifact belongs under Reduction only when that artifact actually owns the reduction semantics.
+- Workspace Placement: implementation work belongs in its natural owning Workspace. Business work should represent organizational why, priority, acceptance, coordination, cross-Workspace decisions, and disposition rather than duplicate implementation truth.
+- Cross-Workspace Coordination: Handoffs/Returns may connect Business control-plane work to Workspace-local execution work without requiring the specialist Workspace to write implementation history into Business.
+- Directory Boundary: directory membership helps people and Tooling discover bounded work but does not replace artifact Parent, Project/Task, Handoff, status, or other semantic authority.
+- Legacy Boundary: existing flat `.topics/work/*.trace.md` material remains valid until a separate migration plan qualifies and applies movement into work-area directories.
+
 ## Composition
 
 - Composition Policy: additive
@@ -77,4 +88,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: ngmUJpLPwWG1qWggxwvoDSr3cqb_9xX2Gvg4eT7M4kg
+  - Value: 0PfONB_cOo9nBpS6xzF3lWt1mZqTqzwnNu5VkcoGhKw

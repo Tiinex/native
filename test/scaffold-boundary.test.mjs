@@ -9,6 +9,7 @@ const root = fileURLToPath(new URL('../.topics/.scaffolds/', import.meta.url));
 const requiredHandles = new Set([
   'tiinex.native.workspace-base.v1',
   'tiinex.native.workspace-work.v1',
+  'tiinex.native.workspace-entry.v1',
   'tiinex.native.workspace-process.v1',
   'tiinex.native.workspace-reduction.v1',
   'tiinex.native.workspace-schema-authority.v1',
@@ -49,4 +50,13 @@ test('canonical Workspace base remains minimal and versioned as the first stable
   assert.match(markdown, /^  - Path: \.topics$/m);
   assert.match(markdown, /^  - Path: \.topics\/.workspaces$/m);
   assert.doesNotMatch(markdown, /^  - Path: \.topics\/(?:work|processes|reductions)$/m);
+});
+
+
+test('process scaffold encodes typed Process topology best practice', async () => {
+  const scaffold = await readFile(path.join(root, 'workspace/capabilities/tiinex-workspace-process-scaffold.trace.md'), 'utf8');
+  assert.match(scaffold, /Root Type: use `tiinex\.topic\.v1`/);
+  assert.match(scaffold, /Executable Position Type: durable independently followable Process positions use `tiinex\.transition\.definition\.v1`/);
+  assert.match(scaffold, /use `tiinex\.relation\.v1` only when the relation instance itself deserves artifact ownership/);
+  assert.match(scaffold, /Authoring Fail-Closed:/);
 });

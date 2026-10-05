@@ -48,6 +48,21 @@
 - Navigation: Viewer/tooling discovers the process tree from artifact material; README or manually maintained directory indexes are not required authority.
 - Filename Boundary: filenames may preserve lineage/local namespace identity; directory naming carries process ownership, not lifecycle/currentness.
 
+## Process Decomposition Convention
+
+- Atomic Process: one process-definition artifact is sufficient only when the reusable process is genuinely atomic at the durable level and separate steps would add no useful execution, recovery, branching, evidence, or handoff boundary.
+- Root Type: use `tiinex.topic.v1` for reusable Process identity/root semantics while Topic truthfully owns the process purpose, scope, applicability framing and interpretation boundary; do not invent a dedicated Process-root schema merely for naming aesthetics.
+- Executable Position Type: durable independently followable Process positions use `tiinex.transition.definition.v1` rather than generic child Topics when the artifact's main job is to define a reusable bounded transformation/step.
+- Topology Edge Type: use typed relation semantics for durable branch, loop, return, composition or sub-process edges without weakening `Parent`. Prefer Transition Definition `Relation Effects` when the edge is local to the transition and has no independent lifecycle/provenance value; use `tiinex.relation.v1` only when the relation instance itself deserves artifact ownership and the active authoring path can qualify it.
+- Supporting Topic Boundary: explanatory/supporting Topics remain valid inside a Process directory when their primary meaning is genuinely topical/documentary rather than an executable position disguised as a Topic.
+- Durable Steps: when a process contains independently followable phases, decision branches, recovery boundaries, handoff/acceptance gates, or steps whose state/evidence matters separately, represent those semantics explicitly with the appropriate typed artifacts inside the owning process directory.
+- Root Meaning: the process-definition root owns the reusable purpose, applicability and process-level boundaries; Transition Definitions own durable executable positions and relation semantics own topology edges.
+- Authoring Fail-Closed: if the semantically appropriate artifact type lacks a qualified authoring contract/renderer, do not downgrade the meaning to a convenient Topic or manually bypass qualification. Use another already-qualified semantic owner only when it is truthful (for example transition-local Relation Effects); otherwise preserve the authoring blocker.
+- Sequence Boundary: filename lineage and explicit artifact relations may support navigation/ordering, but directory placement alone does not prove active step, completion, or execution order.
+- Review Signal: a process root containing many materially distinct procedural sections but no durable typed step artifacts is a signal to review whether the process has outgrown an atomic representation.
+- Maintenance Process: material Process creation/correction/maintenance should follow the applicable Process Development And Maintenance authority when selected by the controlling work/session; scaffold presence alone does not make that Business Process applicable.
+- Profile Boundary: provider-/host-specific process profiles and steps belong in their semantically owning interop/host Workspace rather than portable Native/Core.
+
 ## Composition
 
 - Composition Policy: additive
@@ -87,4 +102,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: rf1k1x8JedLKfOz5nsBCVcoZ3DbqKUSDazVCHGKobKY
+  - Value: 9jrbId6K8lnTnIMIX31OkCES9Uu9EG6hcLMXkRysFX4
