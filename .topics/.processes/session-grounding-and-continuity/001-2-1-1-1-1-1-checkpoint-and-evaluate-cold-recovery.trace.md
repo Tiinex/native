@@ -102,8 +102,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-2-1-1-1-1-transfer-responsibility-artifact-first.trace.md](001-2-1-1-1-1-transfer-responsibility-artifact-first.trace.md)
-  - Value: _FHRiMhRycIrYLo8mMZSf-DdO12wB2_5kWPoBEWkX0E
+  - Value: 2qYFzOPbg5jKOK2ePNXG0VTSpHIOdEgKOjw0xXW0KLI
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: pthjPQWlfPyUgNTbdOg1wNm-9iFD5qjxtVuUXBgTito
+  - Value:IiVSOjv1Ku3h1Y7YBC5PKtgg61LY2_OI7IAneWLMHK4

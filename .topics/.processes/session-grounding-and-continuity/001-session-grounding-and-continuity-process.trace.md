@@ -8,7 +8,7 @@
   - Origin:
     - [relative](../001-processes.trace.md)
 - Current
-  - Current Schema: [tiinex.topic.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/core/topic/tiinex.topic.v1.schema.md)
+  - Current Schema: [tiinex.process.v1](https://github.com/Tiinex/docs/blob/2262a1c4b35e887d116d0d01a864074a9f1641c2/.topics/.schemas/process/tiinex.process.v1.schema.md)
   - Created At: 2026-10-04 19:50:00
   - Authors: Anchor; Sigma
   - Why: Let cold, resumed, or transferring Tiinex consumers ground and preserve bounded work without hidden conversational state, recipient-kind exceptions, or provider-specific improvisation.
@@ -19,19 +19,55 @@
 
 # Session Grounding And Continuity
 
-## Purpose
+## Process Identity
+
+- Name: Session Grounding And Continuity
+- Version: 1
+- Canonical Identifier: tiinex.process.session-grounding-and-continuity.v1
+- Human Label: Session Grounding And Continuity
+
+## Purpose And Scope
+
+- Purpose: Provide a portable, human-readable way to enter or resume bounded work without relying on hidden session memory, transport accidents, or provider-specific improvisation.
+- Semantic Boundary: Defines reusable Session Grounding And Continuity process semantics; it does not prove invocation, execution, authority, acceptance, current work, or completion.
+- Intended Domains: qualified Tiinex work for the Session Grounding And Continuity process
+- Not Intended For: inferring applicability from carriage, directory placement, filename order, Role presence, or host presentation
+
+## Applicability And Conditions
+
+- Applicability Meaning: applicable only when a qualified Entry, Handoff, controlling work artifact, relation, invocation, or other owning authority selects this reusable Process for the bounded work.
+- Unknown Meaning: if applicability, authority, entry, or governing work is unresolved, Process applicability remains unresolved rather than being inferred from discovery or proximity.
+
+## Process Topology
+
+- Topology Meaning: typed Transition Definitions and qualified Relations in this Process lineage define reusable positions and durable non-parent topology where represented.
+- Entry Meaning: Process entry is established by qualified invocation/context and typed topology; semantic Parent and filename order do not independently select an executable entry.
+- Outcome Meaning: outcomes are established by qualified topology plus real execution/return/evidence artifacts; Process definition presence does not establish an outcome.
+- Transition Family: session-grounding-and-continuity
+
+## Interpretation Limits
+
+- Does Not Prove: that this Process ran, is current, was accepted for a particular context, or grants mutation authority.
+- Must Not Be Inferred: that semantic Parent, filename lineage, directory position, carrier presence, or apparent chronology is executable Process topology or current-work authority.
+- Execution Boundary: typed Process topology defines reusable semantics; real work lineage, qualified invocation/context, Handoffs, Returns/Reductions, Evidence, and accepting authority remain the truth about what actually happened.
+
+## Related Artifacts
+
+### Preserved Legacy Definition Notes
+
+### Purpose
 
 Provide a portable, human-readable way to enter or resume bounded work without relying on hidden session memory, transport accidents, or provider-specific improvisation.
 
 The process is intentionally usable in a minimal Workspace. It does not require a particular organization, Role catalog, Project graph, LLM, host, or repository provider. Tooling may automate the steps, but Tooling does not replace the semantic authorities being grounded.
 
-## When This Process Applies
+### When This Process Applies
 
 Use this process when a session cold-starts, resumes from carried material, enters work after a material context change, or approaches a host/session boundary where important working state may not survive.
 
 Applicability must be explicit. A Session Entry, controlling work/context artifact, Handoff, invocation, or another qualified declaration may select this process. Catalog presence, filename, directory placement, package membership, or nearby Roles do not make it applicable by themselves.
 
-## Grounding Sequence
+### Grounding Sequence
 
 1. **Identify the entry boundary.** Determine what bounded activity or context is being entered and whether a Handoff, continuation, Workspace, Task/Project, or another explicit Entry controls it. Transport delivery alone does not manufacture transfer authority.
 2. **Ground only what the entry requires.** Read the exact material needed to understand the next bounded action. Preserve unknowns rather than filling them from memory or adjacency.
@@ -41,7 +77,7 @@ Applicability must be explicit. A Session Entry, controlling work/context artifa
 6. **Disposition readiness explicitly.** State what the session is ready to do and what remains blocked. Transport validity, semantic grounding, local action authority, and remote mutation authority remain separate truths.
 7. **Checkpoint before survivability becomes uncertain.** When meaningful progress exists and the host/session may lose local state, preserve a qualified carrier/checkpoint on a durable transport surface.
 
-## Readiness Boundary
+### Readiness Boundary
 
 Use the smallest truthful statement that fits the next action:
 
@@ -53,7 +89,7 @@ Use the smallest truthful statement that fits the next action:
 
 These labels are orientation language, not a protocol state machine. A stronger action must still be justified by the controlling artifacts and host authority.
 
-## Handoff And Carrier Boundary
+### Handoff And Carrier Boundary
 
 - A Handoff declares a bounded transfer of work or responsibility.
 - A carrier transports qualified material and may preserve a session checkpoint.
@@ -61,7 +97,7 @@ These labels are orientation language, not a protocol state machine. A stronger 
 - Package validity does not prove Handoff acceptance, semantic grounding, action readiness, or remote-write authority.
 - Handoff responsibility must not be inferred from package destination, sender/receiver UI position, filename, directory, or upload channel.
 
-## Recipient Transfer And Artifact-First Boundary
+### Recipient Transfer And Artifact-First Boundary
 
 A recipient boundary exists when the current actor asks another actor to own or perform a bounded next action, including review, acceptance, manual/external execution, continuation, or another responsibility that leaves the current actor's exclusive control.
 
@@ -75,7 +111,7 @@ A recipient boundary exists when the current actor asks another actor to own or 
 
 The recipient should be able to use the same qualified Tooling path to orient, ground, continue, review, or return the transfer when that Tooling is available. A human participant is not an out-of-band exception to Tiinex continuity.
 
-## Source Preference And Recovery
+### Source Preference And Recovery
 
 For required material, prefer this order when each earlier source is qualified and sufficient:
 
@@ -87,7 +123,7 @@ For required material, prefer this order when each earlier source is qualified a
 
 Moving to a later source is a recovery decision, not a convenience shortcut. A live source may be fresher but must not silently replace the exact material selected by the controlling context.
 
-## Host And Interop Boundary
+### Host And Interop Boundary
 
 Portable semantics stay with their semantic owner and shared host-neutral mechanics stay in Core. Environment-specific behavior belongs in the relevant Interop or host Workspace.
 
@@ -95,7 +131,7 @@ A host adaptation may define volatile-storage behavior, attachment survival, con
 
 Host capabilities are opportunities to act, not semantic authority. Read capability does not imply write authority. Remote write requires an explicit bounded authorization.
 
-## Repository Bootstrap And Reception Surfaces
+### Repository Bootstrap And Reception Surfaces
 
 Repository reception files are convenience projections, not a parallel Tiinex index.
 
@@ -103,7 +139,7 @@ Repository reception files are convenience projections, not a parallel Tiinex in
 - `README.md` may explain the repository/package to humans and summarize durable outcomes, interfaces, or usage, but it must not define semantic authority, current work, process applicability, lineage, or acceptance.
 - Current artifact discovery belongs to Tiinex Tooling over qualified Workspace material. A README/LLM bootstrap surface may point at the stable Tiinex lens, but it must not become a second source that ordinary `.topics` changes require humans to synchronize.
 
-## Transport Presentation Boundary
+### Transport Presentation Boundary
 
 When a carrier is delivered to another session or actor, transport presentation is intentionally narrower than semantic grounding.
 
@@ -112,7 +148,7 @@ When a carrier is delivered to another session or actor, transport presentation 
 - Do not reconstruct, paraphrase, extend, or wrap the Tooling-projected routing text with semantic work summary prose. Human acceptance criteria may be held by the tester separately, but must not be injected into a blind cold-start transport when the purpose is to test grounding.
 - The package plus its exact Tooling-projected routing text is the normal transport surface; loose semantic helper files or explanatory chat prose must not become hidden grounding dependencies.
 
-## Cold-Start Acceptance And Retrospective
+### Cold-Start Acceptance And Retrospective
 
 When the purpose of a cold start is to evaluate grounding quality rather than continue implementation immediately, keep the acceptance observation separate from recipient grounding.
 
@@ -126,7 +162,7 @@ When the purpose of a cold start is to evaluate grounding quality rather than co
 
 A retrospective is post-grounding evidence. It must not be embedded in transport text, bootstrap hints, Required Context solely as a test oracle, or other material visible to the cold recipient merely to make the test easier.
 
-## Lineage And Continuity Separation
+### Lineage And Continuity Separation
 
 Keep these concerns separate:
 
@@ -137,7 +173,7 @@ Keep these concerns separate:
 
 Matching numbers, directory placement, package dimensions, chronology, or arrival order do not establish another relationship.
 
-## Checkpoint Boundary
+### Checkpoint Boundary
 
 A useful checkpoint preserves enough qualified material and routing information that a cold successor can recover the bounded state without reconstructing it from conversational chronology.
 
@@ -149,13 +185,13 @@ For ordinary recovery/commit checkpoints that continue one carrier prefix, prese
 
 Carrier progression is transport continuity only. It must not rewrite Parent ancestry, artifact identity, filename lineage, acceptance, or work ownership.
 
-## Failure Policy
+### Failure Policy
 
 Stop the stronger action when a required grounding obligation cannot be qualified. Name the missing material or authority, why it matters, and the smallest recovery path.
 
 Do not compensate with broad repository archaeology, arbitrary connector search, guessed participant identity, guessed process applicability, or invented structural placement.
 
-## Interpretation Limits
+### Interpretation Limits
 
 - Does Not Establish: Handoff acceptance, durable Party identity, participant semantics, process execution, Task completion, truth, remote-write authority, or universal applicability of any carried Process, Role, or Scaffold.
 - Must Not Be Used To Claim: that package validity equals readiness; that a carried Role is a participant; that a carried Parent target should be fetched remotely again; that provider-specific constraints belong in Core; or that carrier lineage creates semantic Parent ancestry.
@@ -170,4 +206,4 @@ Do not compensate with broad repository archaeology, arbitrary connector search,
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:ymEdmcxAeQ5q8ZwLSyAzH5FWbIfWyNdXK8eRNZ-eUUA
+  - Value:WP3XEGeEEEwnFwPN-ReCNldmw0LQ2M-PaAvW5ORapkM

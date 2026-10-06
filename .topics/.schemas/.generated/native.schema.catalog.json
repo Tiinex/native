@@ -3,12 +3,12 @@
   "source": {
     "provider": "docs-workspace",
     "repository": "Tiinex/docs",
-    "commit": "94b6d86d95ce47f8050a47d6eb7b29b577669ea4",
+    "commit": "2262a1c4b35e887d116d0d01a864074a9f1641c2",
     "publicationState": "published-immutable-canonical",
     "snapshotCompleteness": "exact-canonical-docs-snapshot",
     "networkRequired": false
   },
-  "count": 109,
+  "count": 111,
   "entries": [
     {
       "schemaId": "tiinex.access.v1",
@@ -863,6 +863,42 @@
         "checksum": {
           "algorithm": "sha256",
           "value": "becbc69dfed4b8989aebe85b6187eb5624ed484a18a044169d88cc5320cf4bec"
+        },
+        "capabilityContract": "tiinex.schema.module.v1",
+        "snapshotCompleteness": "exact-canonical-docs-snapshot",
+        "publicationState": "published-immutable-canonical",
+        "schemaReferencePublicationState": "published-immutable-canonical",
+        "bindingVersion": "tiinex.web.schema-binding.v1"
+      },
+      "specialized": false,
+      "creationDeclared": true,
+      "creationRepresentable": true
+    },
+    {
+      "schemaId": "tiinex.entry.target.v1",
+      "parentSchemaId": "tiinex.entry.v1",
+      "envelopeSchemaId": "tiinex.root.v1",
+      "title": "Target Entry",
+      "summary": "This schema specializes `tiinex.entry.v1` for reusable environment targets.",
+      "bytes": 8188,
+      "binding": {
+        "schemaId": "tiinex.entry.target.v1",
+        "kind": "structural",
+        "role": "canonical-schema",
+        "module": "",
+        "snapshot": "schema-pack:tiinex.entry.target.v1",
+        "canonicalUri": "tiinex://schemas/entry/target/tiinex.entry.target.v1",
+        "permalink": "https://github.com/Tiinex/docs/blob/2262a1c4b35e887d116d0d01a864074a9f1641c2/.topics/.schemas/entry/target/tiinex.entry.target.v1.schema.md",
+        "rawUrl": "https://raw.githubusercontent.com/Tiinex/docs/2262a1c4b35e887d116d0d01a864074a9f1641c2/.topics/.schemas/entry/target/tiinex.entry.target.v1.schema.md",
+        "sourcePath": ".topics/.schemas/entry/target/tiinex.entry.target.v1.schema.md",
+        "sourceRepository": "Tiinex/docs",
+        "sourceCommit": "2262a1c4b35e887d116d0d01a864074a9f1641c2",
+        "sourceBlobSha": "8c0af310228309fdbccdcbabdf5d5dac4c65058a",
+        "originId": "tiinex-docs-2262a1c4",
+        "originTrustRole": "canonical-core",
+        "checksum": {
+          "algorithm": "sha256",
+          "value": "aec61bdeabaa17338c0612e5cc0c11aaf5313a4c594567b261bea83d7211ea20"
         },
         "capabilityContract": "tiinex.schema.module.v1",
         "snapshotCompleteness": "exact-canonical-docs-snapshot",
@@ -2133,6 +2169,42 @@
       "specialized": false,
       "creationDeclared": false,
       "creationRepresentable": false
+    },
+    {
+      "schemaId": "tiinex.process.v1",
+      "parentSchemaId": "tiinex.root.v1",
+      "envelopeSchemaId": "tiinex.root.v1",
+      "title": "Process",
+      "summary": "This schema defines artifacts whose main job is to preserve one reusable Process definition as a durable semantic root.",
+      "bytes": 9027,
+      "binding": {
+        "schemaId": "tiinex.process.v1",
+        "kind": "structural",
+        "role": "canonical-schema",
+        "module": "",
+        "snapshot": "schema-pack:tiinex.process.v1",
+        "canonicalUri": "tiinex://schemas/process/tiinex.process.v1",
+        "permalink": "https://github.com/Tiinex/docs/blob/2262a1c4b35e887d116d0d01a864074a9f1641c2/.topics/.schemas/process/tiinex.process.v1.schema.md",
+        "rawUrl": "https://raw.githubusercontent.com/Tiinex/docs/2262a1c4b35e887d116d0d01a864074a9f1641c2/.topics/.schemas/process/tiinex.process.v1.schema.md",
+        "sourcePath": ".topics/.schemas/process/tiinex.process.v1.schema.md",
+        "sourceRepository": "Tiinex/docs",
+        "sourceCommit": "2262a1c4b35e887d116d0d01a864074a9f1641c2",
+        "sourceBlobSha": "a8cd3a7a2af8a07722f9c0510daa34635c5661c5",
+        "originId": "tiinex-docs-2262a1c4",
+        "originTrustRole": "canonical-core",
+        "checksum": {
+          "algorithm": "sha256",
+          "value": "60b665230bedf4a41030411a08a03c86aa81468507b5c33cce41886e90de4749"
+        },
+        "capabilityContract": "tiinex.schema.module.v1",
+        "snapshotCompleteness": "exact-canonical-docs-snapshot",
+        "publicationState": "published-immutable-canonical",
+        "schemaReferencePublicationState": "published-immutable-canonical",
+        "bindingVersion": "tiinex.web.schema-binding.v1"
+      },
+      "specialized": false,
+      "creationDeclared": true,
+      "creationRepresentable": true
     },
     {
       "schemaId": "tiinex.project.v1",

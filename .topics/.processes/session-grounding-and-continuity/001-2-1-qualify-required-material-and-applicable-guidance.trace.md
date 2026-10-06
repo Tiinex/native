@@ -102,8 +102,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-2-establish-the-entry-boundary.trace.md](001-2-establish-the-entry-boundary.trace.md)
-  - Value: _0rkPFd6OVfFToC67Rt-aUpFWVVlFkOwiBnuecHs4Qc
+  - Value: Bh1ow6eYbSC86BlhoZPC_ZCtcV5ReTdPjVMQwRaSN54
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 6Vz4TlXhNZaCphh1WYMFE35PUjTj3mFokPkiKAol3ew
+  - Value:fXKyJPqrdcaqhbDO6jlZCFOFJ9g4AMjJpPbgIk9vtYc
