@@ -12,8 +12,7 @@ export const handoffSchemaModule = defineGenericArtifactSchemaModule({
   binding,
   schemaSource,
   authoringAffordances: Object.freeze([
-    { input: 'From', displayLabel: 'From', control: 'reference-picker', candidateSource: 'qualified-handoff-endpoints', manualAllowed: true, selectionKey: 'From', fills: { 'From Kind': 'kind', 'From Reference': 'reference' } },
-    { input: 'To', displayLabel: 'To', control: 'reference-picker', candidateSource: 'qualified-handoff-endpoints', manualAllowed: true, selectionKey: 'To', fills: { 'To Kind': 'kind', 'To Reference': 'reference' } },
-    { input: 'Return To Reference', displayLabel: 'Return To', control: 'reference-picker', candidateSource: 'qualified-handoff-endpoints', manualAllowed: true, selectionKey: 'Return To', fills: { 'Return To Reference': 'reference' } }
+    { input: 'From', displayLabel: 'From', control: 'reference-picker', candidateSource: 'qualified-party-artifacts', manualAllowed: true, selectionKey: 'From', fills: { 'From Kind': 'kind', 'From Reference': 'reference' } },
+    { input: 'To', displayLabel: 'To', control: 'reference-picker', candidateSource: 'qualified-party-artifacts', manualAllowed: true, selectionKey: 'To', fills: { 'To Kind': 'kind', 'To Reference': 'reference' } },
   ])
 });
