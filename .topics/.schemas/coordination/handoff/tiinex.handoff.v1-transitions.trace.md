@@ -1,8 +1,8 @@
 # Continuity Context
 
-- Envelope Schema: tiinex.root.v1
+- Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
 - Current
-  - Current Schema: tiinex.schema.transition.companion.v1
+  - Current Schema: [tiinex.schema.transition.companion.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/schema/transition/companion/tiinex.schema.transition.companion.v1.schema.md)
   - Created At: 2026-09-30 00:00:00
   - Summary: Explicit Handoff schema Transition attachment projection.
 
@@ -25,6 +25,15 @@
 - bounded-review-handoff
   - Transition Reference: [Discuss or review](.transitions/discuss-review-handoff-transition-definition.trace.md)
 
+- return-bounded-result-handoff
+  - Transition Reference: [Return bounded result](.transitions/return-bounded-result-handoff-transition-definition.trace.md)
+
+- return-review-disposition-handoff
+  - Transition Reference: [Return review / disposition](.transitions/return-review-disposition-handoff-transition-definition.trace.md)
+
+- report-blocker-request-continuation-handoff
+  - Transition Reference: [Report blocker / request continuation](.transitions/report-blocker-request-continuation-handoff-transition-definition.trace.md)
+
 ## Interpretation Limits
 
 - Does Not Mean: applicability, execution, recommendation, ordering, or recipient authority by itself
@@ -36,4 +45,4 @@
 
 - sha256-base64url-c14n-v2
   - Towards: self
-  - Value: ms80laHsM8O7b3VL_6kl-voE5k7vwB2xPxpbS4s-w7g
+  - Value:5zkBVdJ-NARATdFSo3XGXsM5ae_HSg1tTXQf-kEVBfE

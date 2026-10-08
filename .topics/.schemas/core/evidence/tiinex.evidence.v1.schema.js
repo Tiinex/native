@@ -20,7 +20,14 @@ export const evidenceSchemaModule = defineSchemaModule({
   summary: 'Preserved material used to support, illuminate, test, or challenge a claim or question.',
   binding,
   schemaSource,
-  artifactCreation: defineArtifactCreationCapability(binding, Object.freeze({ ...genericArtifactCreationImplementation, transitionTypes: Object.freeze(['create-artifact','reference-record']) })),
+  artifactCreation: defineArtifactCreationCapability(binding, Object.freeze({ ...genericArtifactCreationImplementation, transitionTypes: Object.freeze(['create-artifact','continue-from-record','reference-record']) })),
+  // Schema-owned authoring guidance. Hosts may offer a local file picker as a
+  // convenience; selected references remain ordinary user-reviewable values.
+  authoringAffordances: Object.freeze([
+    Object.freeze({ input: 'Material', control: 'workspace-file-reference-picker', candidateSource: 'local-workspace-files', displayLabel: 'Add file reference', manualAllowed: true, append: true, localResolutionPolicy: 'must-exist-if-local' }),
+    Object.freeze({ input: 'Claim Reference', control: 'workspace-file-reference-picker', candidateSource: 'local-workspace-files', displayLabel: 'Choose file', manualAllowed: true, localResolutionPolicy: 'must-exist-if-local' }),
+    Object.freeze({ input: 'Target Artifact', control: 'workspace-file-reference-picker', candidateSource: 'local-workspace-files', displayLabel: 'Choose file', manualAllowed: true, localResolutionPolicy: 'must-exist-if-local' })
+  ]),
   capabilities: evidenceCapabilities,
   validate: evidenceValidate,
   present: evidencePresent,

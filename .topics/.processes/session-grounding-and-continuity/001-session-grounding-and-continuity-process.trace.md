@@ -123,6 +123,17 @@ For required material, prefer this order when each earlier source is qualified a
 
 Moving to a later source is a recovery decision, not a convenience shortcut. A live source may be fresher but must not silently replace the exact material selected by the controlling context.
 
+### Bootstrap Content Capability Boundary
+
+A qualified bootstrap runtime and qualified reusable content are separate capabilities. A mechanics-only bootstrap may legitimately expose zero content sources, zero schemas, zero companions, and no Process/Entry catalog while still qualifying for orientation, carrier inspection, and other mechanics that do not require schema-aware content.
+
+- Before schema-aware authoring, Process/Role discovery, Entry selection, or another content-dependent operation, inspect the active runtime composition with `version --json` and/or `catalog --json` rather than inferring content availability from Core version, bootstrap freshness, or package integrity.
+- When the selected bootstrap composition reports no qualified content source, treat schema-aware authoring/discovery as unavailable in that composition. This is a capability boundary, not evidence that Core/runtime integrity failed.
+- If the bounded work requires schema-aware authoring or reusable Tiinex guidance, qualify a selected reusable content source (normally Native or another explicitly declared content source) or use a bootstrap composition that already carries it. Do not reconstruct missing schema/companion behavior from memory.
+- A later bootstrap with different bytes, `builtAt`, Core version, or content composition does not automatically supersede an active semantic context. Qualify the needed capability/composition and preserve the ordinary supersession boundary.
+
+This separation lets a small mechanics bootstrap remain valid while allowing standalone projects to receive an author-capable composition when their work actually needs reusable Tiinex content.
+
 ### Host And Interop Boundary
 
 Portable semantics stay with their semantic owner and shared host-neutral mechanics stay in Core. Environment-specific behavior belongs in the relevant Interop or host Workspace.
@@ -169,9 +180,15 @@ Keep these concerns separate:
 - artifact identity describes the artifact itself;
 - Parent describes semantic continuity ancestry;
 - filename/dimension provides local navigation/allocation coordinates;
+- typed Process Transitions/Relations describe reusable non-parent topology where declared;
+- other qualified Relations may describe dependencies, returns, references, or other graph edges without becoming Parent;
 - carrier lineage describes transport/checkpoint continuity.
 
-Matching numbers, directory placement, package dimensions, chronology, or arrival order do not establish another relationship.
+Tiinex filename lineage is a recommended local projection, not semantic authority. For ordinary first-party and LLM-authored Parent continuations, prefer Tooling allocation (`author --directory ... --parent ...`) so a Parent such as `001-1-1-parent.trace.md` conventionally receives children such as `001-1-1-1-child.trace.md`, then `001-1-1-2-next-child.trace.md`. This makes the semantic ancestry visually navigable without requiring a reader to reconstruct it.
+
+An explicit custom filename remains valid when a human or integration intentionally requests one. `author --path ... --parent ...` means exactly that: preserve the requested local coordinate while Parent remains the semantic ancestry. A custom filename must not be reinterpreted as a different Parent merely because its numbers or words look like a sibling, root, return, or unrelated artifact.
+
+Matching numbers, directory placement, package dimensions, chronology, or arrival order do not establish another relationship. Filename convention should therefore be taught and defaulted by Tiinex first-party tooling/LLMs, but not promoted into validation authority that forbids deliberate human naming.
 
 ### Checkpoint Boundary
 
@@ -206,4 +223,4 @@ Do not compensate with broad repository archaeology, arbitrary connector search,
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:WP3XEGeEEEwnFwPN-ReCNldmw0LQ2M-PaAvW5ORapkM
+  - Value:m0k0cDVCbhTUetSiKSbaVBy6rHMZSWYsYfoQBmGtXRY
