@@ -4212,6 +4212,7 @@
         "input": "Transfers",
         "kind": "named-declaration-section",
         "section": "Transfers",
+        "headingLevel": 2,
         "group": "Transfers",
         "requiredFields": [
           "Transfer Kind",
@@ -4228,6 +4229,7 @@
         "input": "Required Context",
         "kind": "named-declaration-section",
         "section": "Required Context",
+        "headingLevel": 2,
         "group": "Required Context",
         "requiredFields": [
           "Material",
@@ -4244,6 +4246,7 @@
         "input": "Reference Context",
         "kind": "named-declaration-section",
         "section": "Reference Context",
+        "headingLevel": 2,
         "group": "Reference Context",
         "requiredFields": [
           "Material",
@@ -4260,6 +4263,7 @@
         "input": "Retained Responsibilities",
         "kind": "named-declaration-section",
         "section": "Retained Responsibilities",
+        "headingLevel": 2,
         "group": "Retained Responsibilities",
         "requiredFields": [
           "Retained By",
@@ -4276,6 +4280,7 @@
         "input": "Exclusions And Dependencies",
         "kind": "named-declaration-section",
         "section": "Exclusions And Dependencies",
+        "headingLevel": 2,
         "group": "Exclusions And Dependencies",
         "requiredFields": [
           "Kind",

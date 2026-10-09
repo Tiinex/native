@@ -24,7 +24,7 @@ export const evidenceSchemaModule = defineSchemaModule({
   // Schema-owned authoring guidance. Hosts may offer a local file picker as a
   // convenience; selected references remain ordinary user-reviewable values.
   authoringAffordances: Object.freeze([
-    Object.freeze({ input: 'Material', control: 'workspace-file-reference-picker', candidateSource: 'local-workspace-files', displayLabel: 'Add file reference', manualAllowed: true, append: true, localResolutionPolicy: 'must-exist-if-local' }),
+    Object.freeze({ input: 'Material', control: 'workspace-file-reference-picker', candidateSource: 'local-workspace-files', displayLabel: 'Choose material source', manualAllowed: true, append: false, localResolutionPolicy: 'must-exist-if-local' }),
     Object.freeze({ input: 'Claim Reference', control: 'workspace-file-reference-picker', candidateSource: 'local-workspace-files', displayLabel: 'Choose file', manualAllowed: true, localResolutionPolicy: 'must-exist-if-local' }),
     Object.freeze({ input: 'Target Artifact', control: 'workspace-file-reference-picker', candidateSource: 'local-workspace-files', displayLabel: 'Choose file', manualAllowed: true, localResolutionPolicy: 'must-exist-if-local' })
   ]),

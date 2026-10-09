@@ -2,10 +2,10 @@
   "schema": "tiinex.site.schema-runtime-projection.v1",
   "generator": "schema-runtime-projection-v2-schema-pack",
   "schemaId": "tiinex.evidence.v1",
-  "sourceChecksum": "68c675c0958899b4deaeb615aab58089e15a9c45422d062a715d5855fc2c1977",
-  "sourceBlobSha": "b7db7752fed21412cd66a391764c539bb0ddad82",
-  "sourceBytes": 12181,
-  "bindingChecksum": "68c675c0958899b4deaeb615aab58089e15a9c45422d062a715d5855fc2c1977",
+  "sourceChecksum": "2309a1a175540c1ed54b505ec021461123991cfa7cf8d2f68e6ff2cdeaf983cb",
+  "sourceBlobSha": "d73eca4ef294d2450faa2513c64e137bcf08e497",
+  "sourceBytes": 13525,
+  "bindingChecksum": "2309a1a175540c1ed54b505ec021461123991cfa7cf8d2f68e6ff2cdeaf983cb",
   "validationContract": {
     "schema": "tiinex.portable.compiled-schema-contract-chain.v1",
     "schemaId": "tiinex.evidence.v1",
@@ -188,8 +188,6 @@
         "Supported Claim Or Question",
         "Evidence Role",
         "Preservation Basis",
-        "Material",
-        "Material Kind",
         "Preservation State",
         "Fidelity Notes",
         "Known Losses",
@@ -217,13 +215,6 @@
         "Relation Artifact",
         "Capture Time",
         "Custody Context",
-        "Excerpt",
-        "Description",
-        "Attachment Reference",
-        "External Payload",
-        "Transcript Extract",
-        "Screenshot Description",
-        "Sample Reference",
         "Transformation",
         "Redaction",
         "Excerpting",
@@ -556,60 +547,6 @@
               "target": {
                 "heading": "## Supported Claim Or Question",
                 "title": "Supported Claim Or Question",
-                "level": 2,
-                "authority": "root-same-name-default",
-                "qualification": "valid"
-              }
-            }
-          ]
-        },
-        {
-          "group": "Evidence Material",
-          "qualification": "valid",
-          "target": {
-            "heading": "## Evidence Material",
-            "title": "Evidence Material",
-            "level": 2,
-            "authority": "root-same-name-default",
-            "requiredness": "required",
-            "qualification": "valid",
-            "findings": []
-          },
-          "requiredFields": [
-            "Material",
-            "Material Kind"
-          ],
-          "optionalFields": [
-            "Excerpt",
-            "Description",
-            "Attachment Reference",
-            "External Payload",
-            "Preservation Artifact",
-            "Transcript Extract",
-            "Screenshot Description",
-            "Sample Reference"
-          ],
-          "contributors": [
-            {
-              "sourceSchemaId": "tiinex.evidence.v1",
-              "group": "Evidence Material",
-              "requiredFields": [
-                "Material",
-                "Material Kind"
-              ],
-              "optionalFields": [
-                "Excerpt",
-                "Description",
-                "Attachment Reference",
-                "External Payload",
-                "Preservation Artifact",
-                "Transcript Extract",
-                "Screenshot Description",
-                "Sample Reference"
-              ],
-              "target": {
-                "heading": "## Evidence Material",
-                "title": "Evidence Material",
                 "level": 2,
                 "authority": "root-same-name-default",
                 "qualification": "valid"
@@ -1732,6 +1669,39 @@
           "Root defines how extensions are introduced.",
           "Root does not define all future extensions."
         ]
+      },
+      {
+        "group": "Evidence Material",
+        "entryShape": [
+          "First-Level Hyphen List Item"
+        ],
+        "requiredFields": [
+          "Material",
+          "Material Kind",
+          "Description"
+        ],
+        "optionalFields": [
+          "Material Provenance",
+          "Material Limits",
+          "Representation"
+        ],
+        "declarationFields": [],
+        "allowedLabels": [],
+        "allowedShapes": [],
+        "targetHeadings": [
+          "## Evidence Material"
+        ],
+        "allowLiteralNone": false,
+        "rules": [
+          "Entries under `## Evidence Material` are repeated named material declarations.",
+          "The first-level declaration name identifies one material entry inside this Evidence; it is a local stable handle, not a global asset identity, proof, hash, or second Evidence claim.",
+          "Every entry preserves one coherent observation/source bundle: `Material` contains a readable excerpt, explicit link, attached source or bounded preservation reference; `Material Kind` describes the actual form; `Description` tells a later human why this entry matters.",
+          "One entry may cite multiple complementary representations of the same coherent material (for example a video and its transcript); different observations, independent sources or separately interpreted screenshots should be separate entries.",
+          "`Material Provenance` and `Material Limits` can narrow the shared Evidence-level provenance and interpretation boundaries for this entry. They never silently replace global `Known Source`, `Provenance Limits`, `Fidelity Notes` or `Does Not Prove`.",
+          "Entries cannot assert truth, acceptance, identity, source validity or asset custody merely because a file/URL is included.",
+          "If material is binary, private, very large or external, use a bounded reference with an explicit preservation basis; field values alone do not copy or relocate files.",
+          "Every declaration name must be unique in this Evidence; a shared URL may appear in distinct entries if their separate interpretation is preserved."
+        ]
       }
     ],
     "constraints": [
@@ -2081,10 +2051,10 @@
         "schemaId": "tiinex.evidence.v1",
         "source": {
           "repository": "Tiinex/docs",
-          "commit": "302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6",
+          "commit": "",
           "path": ".topics/.schemas/core/evidence/tiinex.evidence.v1.schema.md",
-          "publicationState": "published-immutable-canonical",
-          "snapshotCompleteness": "exact-canonical-docs-snapshot"
+          "publicationState": "qualified-local-unpublished",
+          "snapshotCompleteness": "exact-local-docs-snapshot"
         },
         "parentSchemaId": "tiinex.preservation.v1",
         "parentSourceCandidates": [
@@ -2110,8 +2080,7 @@
       "Known Source",
       "Preservation Basis",
       "Provenance Limits",
-      "Material",
-      "Material Kind",
+      "Evidence Material",
       "Preservation State",
       "Fidelity Notes",
       "Known Losses",
@@ -2179,22 +2148,22 @@
         "requirement": "required"
       },
       {
-        "input": "Material",
-        "kind": "ordinary-field",
+        "input": "Evidence Material",
+        "kind": "named-declaration-section",
         "section": "Evidence Material",
+        "headingLevel": 2,
         "group": "Evidence Material",
-        "field": "Material",
-        "sourceSchemaId": "tiinex.evidence.v1",
-        "requirement": "required"
-      },
-      {
-        "input": "Material Kind",
-        "kind": "ordinary-field",
-        "section": "Evidence Material",
-        "group": "Evidence Material",
-        "field": "Material Kind",
-        "sourceSchemaId": "tiinex.evidence.v1",
-        "requirement": "required"
+        "requiredFields": [
+          "Material",
+          "Material Kind",
+          "Description"
+        ],
+        "optionalFields": [
+          "Material Provenance",
+          "Material Limits",
+          "Representation"
+        ],
+        "allowLiteralNone": false
       },
       {
         "input": "Preservation State",
