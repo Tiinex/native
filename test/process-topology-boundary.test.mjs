@@ -7,15 +7,15 @@ import { fileURLToPath } from 'node:url';
 const root = path.dirname(fileURLToPath(import.meta.url));
 const processDir = path.resolve(root, '../.topics/.processes/session-grounding-and-continuity');
 
-test('portable grounding process keeps legacy Topic branch but uses Transition Definitions for corrected executable topology', async () => {
+test('portable grounding process keeps both canonical branches as Transition Definitions', async () => {
   const names = (await readdir(processDir)).sort();
   assert.ok(names.includes('001-1-establish-the-entry-boundary.trace.md'));
   assert.ok(names.includes('001-2-establish-the-entry-boundary.trace.md'));
-  const legacy = await readFile(path.join(processDir, '001-1-establish-the-entry-boundary.trace.md'), 'utf8');
-  const typed = names.filter((name) => /^001-2(?:-|\b)/.test(name));
-  assert.match(legacy, /Current Schema: \[tiinex\.topic\.v1\]/);
-  assert.equal(typed.length, 6);
-  for (const name of typed) {
+  const first = names.filter((name) => /^001-1(?:-|\b)/.test(name));
+  const second = names.filter((name) => /^001-2(?:-|\b)/.test(name));
+  assert.equal(first.length, 6);
+  assert.equal(second.length, 6);
+  for (const name of [...first, ...second]) {
     const markdown = await readFile(path.join(processDir, name), 'utf8');
     assert.match(markdown, /Current Schema: \[tiinex\.transition\.definition\.v1\]/, name);
     assert.doesNotMatch(markdown, /Current Schema: \[tiinex\.topic\.v1\]/, name);

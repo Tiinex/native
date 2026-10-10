@@ -2051,10 +2051,10 @@
         "schemaId": "tiinex.evidence.v1",
         "source": {
           "repository": "Tiinex/docs",
-          "commit": "",
+          "commit": "9ef3c2caed38152b1948c93cb45c985786660d91",
           "path": ".topics/.schemas/core/evidence/tiinex.evidence.v1.schema.md",
-          "publicationState": "qualified-local-unpublished",
-          "snapshotCompleteness": "exact-local-docs-snapshot"
+          "publicationState": "published-immutable-canonical",
+          "snapshotCompleteness": "exact-canonical-docs-snapshot"
         },
         "parentSchemaId": "tiinex.preservation.v1",
         "parentSourceCandidates": [
