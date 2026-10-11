@@ -1,4 +1,6 @@
 import { defineSchemaModule } from '../contracts.js';
+import { genericArtifactCreationImplementation } from '../creation.renderer.js';
+import { defineArtifactCreationCapability } from '../creation.capability.js';
 import binding from './tiinex.reduction.v1.schema.json' with { type: 'json' };
 import { schemaSource } from './tiinex.reduction.v1.schema.source.js';
 
@@ -11,6 +13,7 @@ export const reductionSchemaModule = defineSchemaModule({
   summary: "Schema for observable reduction artifacts that preserve carry-forward state, loss, and uncertainty.",
   binding,
   schemaSource,
+  artifactCreation: defineArtifactCreationCapability(binding, Object.freeze({ ...genericArtifactCreationImplementation, transitionTypes: Object.freeze(['create-artifact', 'continue-from-record']) })),
   capabilities: Object.freeze({
     supportedSurfaces: Object.freeze(['feed', 'tree', 'detail', 'lineage', 'preview', 'share']),
     canRenderFallback: true,

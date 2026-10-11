@@ -1,0 +1,25 @@
+{
+  "schemaId": "tiinex.annotation.v1",
+  "kind": "concrete",
+  "role": "annotation-artifact",
+  "module": "./tiinex.annotation.v1.schema.js",
+  "snapshot": "schema-pack:tiinex.annotation.v1",
+  "canonicalUri": "tiinex://schemas/annotation/tiinex.annotation.v1",
+  "permalink": "",
+  "rawUrl": "",
+  "sourcePath": ".topics/.schemas/annotation/tiinex.annotation.v1.schema.md",
+  "sourceRepository": "Tiinex/docs",
+  "sourceCommit": "",
+  "sourceBlobSha": "4f7bb705c99a99da19c60169c15720748dc55044",
+  "originId": "tiinex-docs-local",
+  "originTrustRole": "canonical-core",
+  "checksum": {
+    "algorithm": "sha256",
+    "value": "22304018ed7e3188893a6b71ad47c4be67d6492ba1ee7e33debe6ec0292be340"
+  },
+  "capabilityContract": "tiinex.schema.module.v1",
+  "snapshotCompleteness": "exact-local-docs-snapshot",
+  "publicationState": "qualified-local-unpublished",
+  "schemaReferencePublicationState": "qualified-local-unpublished",
+  "bindingVersion": "tiinex.web.schema-binding.v1"
+}
