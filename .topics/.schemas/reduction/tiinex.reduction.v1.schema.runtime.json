@@ -2,10 +2,10 @@
   "schema": "tiinex.site.schema-runtime-projection.v1",
   "generator": "schema-runtime-projection-v2-schema-pack",
   "schemaId": "tiinex.reduction.v1",
-  "sourceChecksum": "e331595f48877837d65e1b178d8c97a788132d4627f951eb5a258155ed6a2a19",
-  "sourceBlobSha": "3437410b98c082aca5696ab7f58b561d4baa9eba",
-  "sourceBytes": 13994,
-  "bindingChecksum": "e331595f48877837d65e1b178d8c97a788132d4627f951eb5a258155ed6a2a19",
+  "sourceChecksum": "b8ae2880bee5901abf5dfc59818539cfd36273501178efb480630cc3c60e561f",
+  "sourceBlobSha": "b22d1a9d000682102445465cacd41873ae34e088",
+  "sourceBytes": 16824,
+  "bindingChecksum": "b8ae2880bee5901abf5dfc59818539cfd36273501178efb480630cc3c60e561f",
   "validationContract": {
     "schema": "tiinex.portable.compiled-schema-contract-chain.v1",
     "schemaId": "tiinex.reduction.v1",
@@ -1612,10 +1612,10 @@
         "schemaId": "tiinex.reduction.v1",
         "source": {
           "repository": "Tiinex/docs",
-          "commit": "302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6",
+          "commit": "",
           "path": ".topics/.schemas/reduction/tiinex.reduction.v1.schema.md",
-          "publicationState": "published-immutable-canonical",
-          "snapshotCompleteness": "exact-canonical-docs-snapshot"
+          "publicationState": "qualified-local-unpublished",
+          "snapshotCompleteness": "exact-local-docs-snapshot"
         },
         "parentSchemaId": "tiinex.root.v1",
         "parentSourceCandidates": [
@@ -1687,11 +1687,11 @@
     "supplementalRequiredFields": [],
     "requiredShape": [
       {
-        "id": "unknown#artifact-creation/Template Body/required-shape/264",
+        "id": "unknown#artifact-creation/Template Body/required-shape/270",
         "sourceSchemaId": "",
         "group": "Template Body",
         "category": "Required Shape",
-        "line": 264,
+        "line": 270,
         "sourceText": "first heading uses `# {{summary}}`",
         "primitive": {
           "kind": "body-title-summary",
@@ -1699,11 +1699,11 @@
         }
       },
       {
-        "id": "unknown#artifact-creation/Template Body/required-shape/265",
+        "id": "unknown#artifact-creation/Template Body/required-shape/271",
         "sourceSchemaId": "",
         "group": "Template Body",
         "category": "Required Shape",
-        "line": 265,
+        "line": 271,
         "sourceText": "`## Source Context` section",
         "primitive": {
           "kind": "section-body",
@@ -1712,11 +1712,11 @@
         }
       },
       {
-        "id": "unknown#artifact-creation/Template Body/required-shape/266",
+        "id": "unknown#artifact-creation/Template Body/required-shape/272",
         "sourceSchemaId": "",
         "group": "Template Body",
         "category": "Required Shape",
-        "line": 266,
+        "line": 272,
         "sourceText": "`## Carry-Forward State` section",
         "primitive": {
           "kind": "section-body",
@@ -1725,11 +1725,11 @@
         }
       },
       {
-        "id": "unknown#artifact-creation/Template Body/required-shape/267",
+        "id": "unknown#artifact-creation/Template Body/required-shape/273",
         "sourceSchemaId": "",
         "group": "Template Body",
         "category": "Required Shape",
-        "line": 267,
+        "line": 273,
         "sourceText": "`## Loss And Uncertainty` section",
         "primitive": {
           "kind": "section-body",
@@ -1738,11 +1738,11 @@
         }
       },
       {
-        "id": "unknown#artifact-creation/Template Body/required-shape/268",
+        "id": "unknown#artifact-creation/Template Body/required-shape/274",
         "sourceSchemaId": "",
         "group": "Template Body",
         "category": "Required Shape",
-        "line": 268,
+        "line": 274,
         "sourceText": "`## Validation` section",
         "primitive": {
           "kind": "section-body",

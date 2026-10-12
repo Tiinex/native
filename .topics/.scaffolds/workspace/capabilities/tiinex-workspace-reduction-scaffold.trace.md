@@ -40,10 +40,10 @@
 
 ## Work Reduction Convention
 
-- Work Reduction Placement: when one bounded work area becomes terminal and a durable distilled result is warranted, prefer `.topics/reductions/work/<work-area-handle>/` for the reduction surface corresponding to that work area.
-- Discoverability: reuse of the work-area handle makes terminal history discoverable from the same human scope without keeping long historical execution lineages looking active under `.topics/work`.
+- Work Reduction Placement: prefer the flat Workspace-local `.topics/reductions/` catalog, with directory-local numbers; a new Reduction continues the qualified prior Reduction when causally related. Do not create subject/work subdirectories by default. Older work-area Reduction paths remain valid historical source until separately migrated.
+- Discoverability: the Reduction owns exact clickable Source Context identities and integrity references; the Work Area handle or folder location alone never establishes source ancestry.
 - Reduction Meaning: a directory does not make material terminal. The qualified Reduction artifact and lifecycle/disposition authority own the reduction meaning.
-- Reduction Shape: one reduction artifact may distill the completed work area when that is sufficient. Additional artifacts belong only when the reduced result genuinely needs separate durable structure.
+- Reduction Shape: retain all four sections (`Source Context`, `Carry-Forward State`, `Loss And Uncertainty`, `Validation`). Prefer the compact Source Context syntax in the qualified Docs Reduction schema; do not bury source identities under free-form path/hash manifests. Larger move manifests belong in distinct Evidence or exact recovery material.
 - Source Preservation: reducing a work area does not authorize deletion or movement of its source history by itself. Any canonical migration/compaction remains a separately qualified operation.
 - Cross-Workspace Boundary: reductions belong in the Workspace that owns the reduced execution truth unless a separately qualified organizational reduction intentionally summarizes across Workspaces.
 - Legacy Boundary: existing reduction category layouts remain valid until separately migrated; this convention adds a preferred work-area reduction shape rather than invalidating historical paths.
@@ -87,4 +87,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: i-ht_vHLiXOPJC-OPzShTGaAY0pGT6qwYMQLAzj__PI
+  - Value: bW2aRFgQgR2cipHfAS5RIBFEgjwRomwRiT51rdrpCXs
