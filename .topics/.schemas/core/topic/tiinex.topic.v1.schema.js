@@ -18,7 +18,7 @@ export const topicSchemaModule = defineSchemaModule({
   kind: 'concrete',
   role: 'core-artifact',
   parentSchemaId: "tiinex.root.v1",
-  summary: 'Bounded topic-oriented lineage artifacts for live design and implementation threads.',
+  summary: 'Bounded work and maintained knowledge subjects with explicit continuity.',
   binding,
   schemaSource,
   artifactCreation: defineArtifactCreationCapability(binding, Object.freeze({ ...topicArtifactCreationImplementation, transitionTypes: Object.freeze(['create-artifact','continue-from-record']) })),
