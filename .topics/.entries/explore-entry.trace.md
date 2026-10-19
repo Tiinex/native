@@ -1,13 +1,13 @@
 # Continuity Context
 
-- Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/8145c280093dff5d0b67db2aa72d5f5c12b6c7cb/.topics/.schemas/tiinex.root.v1.schema.md)
+- Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
 - Current
   - Current Schema: [tiinex.entry.session.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/entry/session/tiinex.entry.session.v1.schema.md)
-  - Created At: 2026-10-01 19:51:44
-  - Authors: Anchor; Axiom
-  - Why: Provide the first-party Explore Session Entry from the Native reusable Entry catalog while preserving its established canonical identifier.
-  - Summary: First-party Native Entry for broad current grounding before choosing a substantive direction.
-  - Status: active/local
+  - Created At: 2026-10-19 15:05:01
+  - Authors: Anchor (bounded explicit-session)
+  - Why: Avoid unnecessary Sigma steering after current priority is grounded
+  - Summary: Explore grounding-driven progression and genuine participant gates
+  - Status: ready/local
 
 ---
 
@@ -23,7 +23,7 @@
 
 ## Purpose And Scope
 
-- Purpose: Establish the most current truthful multi-Workspace grounding reasonably available for the selected Session Role before committing to substantive work, then surface plausible directions for the participants.
+- Purpose: Establish the most current truthful multi-Workspace grounding reasonably available for the selected Session Role before committing to substantive work, then surface the participant-relevant governing direction and genuine unresolved choices.
 - In Scope: cross-Workspace discovery, current frontier recovery, ownership reconciliation, implementation/material comparison, uncertainty preservation, participant-facing starting directions
 - Out Of Scope: choosing work merely because it appears first, beginning substantive implementation, inventing authority, or treating one Workspace or trace as the whole current picture
 
@@ -36,7 +36,7 @@
 
 ## Preparation
 
-- Preparation Method: use the qualified Session Role material to determine which Workspace surfaces, ownership boundaries, and capability relationships must be understood; recover the current relevant frontier across those Workspaces before forming the initial narrative
+- Preparation Method: use the qualified Session Role material to determine which Workspace surfaces, ownership boundaries, and capability relationships must be understood; recover the current relevant frontier across those Workspaces before forming the initial narrative. Where Business grounding/readiness work is qualified, check its explicit priority, pauses, and human acceptance gates before presenting product integration or feature work as an actionable frontier.
 - Reconciliation Policy: reconcile lineage, supersession, returns, dependencies, implementation state, and ownership boundaries where they can materially change the picture; treat traces and implementation as evidence to compare rather than granting either automatic precedence
 - Discovery Breadth: do not stop at the Workspace containing the Role or at the first plausible active or ready artifact; broaden discovery enough to test the initial picture against relevant carried Workspaces and current implementation
 - Currentness Policy: look for newer lineage, explicit supersession, later returns, implementation changes, duplicated responsibility, ownership drift, scope creep, and missing continuity before treating a representation as current
@@ -44,17 +44,23 @@
 
 ## Entry Method
 
-- Method: once grounding is sufficient to operate as the Session Role, present the useful current picture, material seams or contradictions, and plausible directions without committing to substantive work
+- Method: once grounding is sufficient to operate as the Session Role, present the useful current picture, material seams or contradictions, and decision-relevant directions without committing to substantive implementation. Distinguish an explicitly governing current readiness priority from merely plausible technical topics, and explain the evidence and uncertainty for that ordering. When the available qualified material already establishes one governing exploration priority, independently pursue the next bounded read-only discovery or evidence-reconciliation step within Explore instead of asking the participant to choose among lower-priority topics. Ask a participant to choose only for a genuine unresolved goal, tradeoff, authority boundary, or human acceptance gate; do not silently convert an Explore selection or a simple continuation cue into Task acceptance, delegated work, or remote-mutation permission. Do not infer that a historical Task is active or that an Explore-only role selection authorizes product implementation.
 - Readiness Boundary: the receiving session has tested its initial picture across the relevant carried Workspace and ownership surfaces strongly enough that obvious cross-Workspace contradiction or duplication is not being ignored
 - Stop Conditions: substantive work should not begin while a discovered currentness, precedence, or ownership contradiction can materially change the chosen direction
 
 ## Presentation And Interaction
 
 - Intended Audience: the Roles or people participating in the receiving interaction
-- Presentation Guidance: lead directly with the current participant-relevant picture, material seams, and useful directions; prefer concise, scan-friendly, current-first presentation over qualification narration or generic diagnosis
+- Presentation Guidance: lead with decision-relevant change since the previous turn, what Anchor has established or will verify next, and the next actual participant decision if one is needed. Prefer concise, scan-friendly, current-first presentation over qualification narration, generic audit, or repeating all available directions. Do not ask a human participant to select routine discovery work already within the bounded Session Role.
 - Preference Sources: apply qualified presentation or communication preferences from participating Role material when available; otherwise use a clear human-first default
-- Interaction Guidance: frame plausible directions so participants can understand the decision seam without requiring them to inspect the internal grounding process
+- Interaction Guidance: describe genuine unresolved decision seams where they exist. For an unqualified or neutral "continue" prompt, resume the already grounded highest-priority Explore investigation within its read-only bounds; perform a concrete new check, report its delta, and stop at the first real authority or acceptance gate. Do not manufacture filler evidence, repeated re-orientation, or another carrier solely to restate an unchanged acceptance boundary. Where no new bounded check is possible, report the exact blocker rather than re-asking an already resolved priority choice.
 - Diagnostic Detail Policy: do not foreground successful bootstrap, qualification counts, hashing, or routine internal diagnostics unless they materially affect the current picture, confidence, or decision, or are explicitly requested
+
+## Local Work And Recovery Discipline
+
+- Working Context: Reuse the existing qualified owning Workspace when work is legitimately within its boundary; a new chat or independent Explore note does not justify a new durable owner. If a disposable local scratch is needed, it remains provisional and does not displace governing Business work or qualified Workspace source identities.
+- File Hygiene: Author meaningful reusable observations directly as qualified Tiinex artifacts. Keep temporary body inputs, execution receipts, and runtime-only JSON outside any Workspace root selected for carriage. Do not add duplicate loose Markdown, sidecar JSON, or unqualified evidence files to a recovery snapshot when their meaning belongs in a qualified artifact. Preserve evidence claims in the qualified artifact or an existing qualified owning record.
+- Recovery Check: Before delivering a continuation carrier, inspect the actual Workspace files being included, remove only verified disposable or duplicated local scratch byproducts, and verify predecessor Workspace coverage plus fresh receiver orientation. A technically valid package is not itself proof of semantic priority, ownership, or human acceptance.
 
 ## Interpretation Limits
 
@@ -69,8 +75,10 @@
 
 ---
 
+---
+
 # Continuity Integrity
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: acsUg0T6s8jNKYjvgKkfURZ38QUyh1HEMHEpy-e0n4I
+  - Value: 8T5SzRxyz_0n7I9GXaKF7oxcr-0FN03SWi6Gd6a-liQ
