@@ -3,10 +3,10 @@
 - Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/tiinex.root.v1.schema.md)
 - Current
   - Current Schema: [tiinex.entry.session.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/entry/session/tiinex.entry.session.v1.schema.md)
-  - Created At: 2026-10-19 15:05:01
+  - Created At: 2026-10-19 18:43:51
   - Authors: Anchor (bounded explicit-session)
-  - Why: Avoid unnecessary Sigma steering after current priority is grounded
-  - Summary: Explore grounding-driven progression and genuine participant gates
+  - Why: Make breadth-first multi-Workspace discovery a qualified Explore method rather than an optional post-orient hint
+  - Summary: Bounded qualified frontier first, relation and currentness reconciliation second, no inferred work authority
   - Status: ready/local
 
 ---
@@ -38,7 +38,7 @@
 
 - Preparation Method: use the qualified Session Role material to determine which Workspace surfaces, ownership boundaries, and capability relationships must be understood; recover the current relevant frontier across those Workspaces before forming the initial narrative. Where Business grounding/readiness work is qualified, check its explicit priority, pauses, and human acceptance gates before presenting product integration or feature work as an actionable frontier.
 - Reconciliation Policy: reconcile lineage, supersession, returns, dependencies, implementation state, and ownership boundaries where they can materially change the picture; treat traces and implementation as evidence to compare rather than granting either automatic precedence
-- Discovery Breadth: do not stop at the Workspace containing the Role or at the first plausible active or ready artifact; broaden discovery enough to test the initial picture against relevant carried Workspaces and current implementation
+- Discovery Breadth: do not stop at the Workspace containing the Role or at the first plausible active or ready artifact; broaden discovery enough to test the initial picture against relevant carried Workspaces and current implementation. Following successful carrier orientation, first perform a bounded read-only cross-Workspace candidate sweep using the qualified host-projected frontier operation when available. Then follow relevant candidates through exact Parent/Task relations, Returns, supersession, ownership and implementation evidence before choosing any current direction. If that operation is unavailable, use a bounded manual carried-Workspace review and report the limitation. Neither a command hint nor a newest leaf establishes semantic currentness.
 - Currentness Policy: look for newer lineage, explicit supersession, later returns, implementation changes, duplicated responsibility, ownership drift, scope creep, and missing continuity before treating a representation as current
 - Uncertainty Policy: where currentness, precedence, or ownership cannot be established, preserve the uncertainty rather than selecting one representation as truth by convenience
 
@@ -75,10 +75,8 @@
 
 ---
 
----
-
 # Continuity Integrity
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 8T5SzRxyz_0n7I9GXaKF7oxcr-0FN03SWi6Gd6a-liQ
+  - Value: APTUPUemSnToMyfTlrKE6DTkJdxiPIiITwZj2pC5LFo
