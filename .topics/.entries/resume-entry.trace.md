@@ -38,7 +38,7 @@
 
 - Preparation Method: reconstruct available continuity from qualified lineage and relevant current material before deciding what, if anything, should continue
 - Reconciliation Policy: reconcile conflicting continuity claims, newer returns, supersession, dependencies, and implementation evidence where they can change the current frontier
-- Discovery Breadth: follow continuity far enough across relevant Workspaces to avoid resuming a stale or superseded representation by convenience
+- Discovery Breadth: use the shared qualified cross-Workspace Discovery baseline when available, before applying Resume-specific filters and deeper continuity traversal; follow continuity far enough across relevant Workspaces to avoid resuming a stale or superseded representation by convenience. If the baseline operation is unavailable, report coverage honestly and use a bounded qualified fallback
 - Currentness Policy: treat explicit current lineage, qualified supersession, latest relevant returns, and current implementation as evidence to reconcile; do not use arrival order or status labels as standalone precedence
 - Uncertainty Policy: distinguish verified continuity from unresolved assumptions and keep unknown continuation state explicit
 
@@ -71,4 +71,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: kf5qnNFykCu4AYDAje6Oe0fgDkMGhfxdOCXCpi8WUYc
+  - Value: VndFRtHvSvJAPGsKIN3eWaqP9M8M0YDUvkFgkdKogrc

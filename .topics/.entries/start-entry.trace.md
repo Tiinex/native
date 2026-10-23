@@ -38,7 +38,7 @@
 
 - Preparation Method: qualify the carried context and recover the smallest current material picture sufficient to understand where the session is starting
 - Reconciliation Policy: where materially relevant representations disagree, preserve the disagreement and resolve currentness or scope before silently choosing one as controlling
-- Discovery Breadth: broaden beyond the first artifact or Workspace when the selected Session Role or discovered ownership boundaries require it for a truthful initial picture
+- Discovery Breadth: use the same qualified cross-Workspace baseline as other Entry paths when carrier coverage and Tooling permit, then broaden beyond the first artifact or Workspace when the selected Session Role or discovered ownership boundaries require it for a truthful initial picture. Baseline coverage is not exhaustive semantic currentness
 - Currentness Policy: prefer qualified current lineage, explicit supersession, and current implementation evidence over filename order or first encounter
 - Uncertainty Policy: state unresolved currentness or authority when it affects the next decision rather than filling it with assumptions
 
@@ -71,4 +71,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 8SGSN2fhjbp3Q9rS7bc3eFzT6OzX4WYhVgzdhE5uUaw
+  - Value: Fd91XGQisVJN6H9qMpWLOzCvMXp1IamFu2ykYfhPXS8
