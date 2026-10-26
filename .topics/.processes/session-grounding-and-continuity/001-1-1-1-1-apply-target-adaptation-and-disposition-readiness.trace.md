@@ -105,8 +105,8 @@ The session can state the smallest truthful readiness level for the next action 
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-1-1-1-resolve-carried-sources-before-recovery.trace.md](001-1-1-1-resolve-carried-sources-before-recovery.trace.md)
-  - Value: 1k6BSDR4_mDTlH927aSmSDOb_6gM2FxQ0FCxKi1bwAc
+  - Value: AoACcvjoU8ZrgLVp1Udf7_nidEBDsVzy4wCtCr_JBuE
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:tisBmaLMKTIV_h7wFTQUAiAwtiz10GmFy2LLnOpYf6Y
+  - Value:ZJ9cd8wiWG6_4vgc1VbAirVLrh5TEe5T4im9iOYAu9E

@@ -106,8 +106,8 @@ Any transferred responsibility has a qualified durable authority/transport surfa
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-1-1-1-1-apply-target-adaptation-and-disposition-readiness.trace.md](001-1-1-1-1-apply-target-adaptation-and-disposition-readiness.trace.md)
-  - Value: tisBmaLMKTIV_h7wFTQUAiAwtiz10GmFy2LLnOpYf6Y
+  - Value: ZJ9cd8wiWG6_4vgc1VbAirVLrh5TEe5T4im9iOYAu9E
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:w1BQQbiZ08fwjSrrGOm_flmh_CIGkMEMA76SE4sf-Q4
+  - Value:upJaxTo6vyNp7RxgAtMVsm6T7G02LUPSgyJSdLiR8eQ

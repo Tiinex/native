@@ -106,8 +106,8 @@ The bounded state can be recovered from qualified durable material without conve
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-1-1-1-1-1-transfer-responsibility-artifact-first.trace.md](001-1-1-1-1-1-transfer-responsibility-artifact-first.trace.md)
-  - Value: w1BQQbiZ08fwjSrrGOm_flmh_CIGkMEMA76SE4sf-Q4
+  - Value: upJaxTo6vyNp7RxgAtMVsm6T7G02LUPSgyJSdLiR8eQ
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:M_PN6LkCHtrQGbJ15YiqI1D9WN04CJirJQz3ZIrquKI
+  - Value:uySHDGk1zXddFQg4QKwjhk8YQVCaKWB25yJDB1aZxwE

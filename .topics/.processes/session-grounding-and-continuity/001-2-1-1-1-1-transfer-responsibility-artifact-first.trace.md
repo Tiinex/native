@@ -102,8 +102,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-2-1-1-1-apply-target-adaptation-and-disposition-readiness.trace.md](001-2-1-1-1-apply-target-adaptation-and-disposition-readiness.trace.md)
-  - Value: 95x1UlW5fhJoK8q7ucVgDyXQeANqD0wMTv1R0mWrCVw
+  - Value: _-Tvp-tM7OyN4ao4fPytj2Hk9a3GlSkYJ96WfK_hwGk
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:2qYFzOPbg5jKOK2ePNXG0VTSpHIOdEgKOjw0xXW0KLI
+  - Value:yxBgr6quds5Q5wJDSyzQZ0BY111P05tttHcYTGGlQNI

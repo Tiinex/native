@@ -102,8 +102,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-2-1-1-resolve-carried-sources-before-recovery.trace.md](001-2-1-1-resolve-carried-sources-before-recovery.trace.md)
-  - Value: ewa5BNYgfIPTFIfgdl6l-MptC_Vrp26guX2Sx_30pIQ
+  - Value: dbSLFAS5BjDxoLtqgYLBz8fkuLCGqx0RKy0oWZt8uzA
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:95x1UlW5fhJoK8q7ucVgDyXQeANqD0wMTv1R0mWrCVw
+  - Value:_-Tvp-tM7OyN4ao4fPytj2Hk9a3GlSkYJ96WfK_hwGk

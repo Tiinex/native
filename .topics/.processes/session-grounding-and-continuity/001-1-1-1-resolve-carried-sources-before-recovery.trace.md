@@ -105,8 +105,8 @@ Every material source used for the bounded grounding has an explicit qualified p
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-1-1-qualify-required-material-and-applicable-guidance.trace.md](001-1-1-qualify-required-material-and-applicable-guidance.trace.md)
-  - Value: hF38loIoRwmWz2FlRyu2DRp8nGqKSG1FKygTtkTaWaE
+  - Value: wBsIRS-PcAgu0TWelqzv9VinHFmQMslbeUvhNHT1BuI
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:1k6BSDR4_mDTlH927aSmSDOb_6gM2FxQ0FCxKi1bwAc
+  - Value:AoACcvjoU8ZrgLVp1Udf7_nidEBDsVzy4wCtCr_JBuE

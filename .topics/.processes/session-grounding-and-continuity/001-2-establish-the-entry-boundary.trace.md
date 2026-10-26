@@ -102,8 +102,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-session-grounding-and-continuity-process.trace.md](001-session-grounding-and-continuity-process.trace.md)
-  - Value: WP3XEGeEEEwnFwPN-ReCNldmw0LQ2M-PaAvW5ORapkM
+  - Value: m0k0cDVCbhTUetSiKSbaVBy6rHMZSWYsYfoQBmGtXRY
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:Bh1ow6eYbSC86BlhoZPC_ZCtcV5ReTdPjVMQwRaSN54
+  - Value:PAo19jagaWW6cDPj5HYUkkC1s0YY0J6oOfR4nYmmM0o

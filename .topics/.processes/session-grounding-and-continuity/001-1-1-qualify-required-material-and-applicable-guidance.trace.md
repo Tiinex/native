@@ -105,8 +105,8 @@ Required grounding material and applicable portable guidance are identified thro
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-1-establish-the-entry-boundary.trace.md](001-1-establish-the-entry-boundary.trace.md)
-  - Value: 4zt6Dg-SLQ_mvQCAs8tVlLYgxnAvBmgyJX6DnAmPJfs
+  - Value: L1VeL7vTh0capBHplscmGWRtTohw5bC9FZCxVUd0b58
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:hF38loIoRwmWz2FlRyu2DRp8nGqKSG1FKygTtkTaWaE
+  - Value:wBsIRS-PcAgu0TWelqzv9VinHFmQMslbeUvhNHT1BuI
